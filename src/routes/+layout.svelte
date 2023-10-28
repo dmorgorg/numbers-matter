@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.postcss';
 	import '$lib/styles/global.scss';
+	import { fade } from 'svelte/transition';
 	import { AppShell, AppBar, storePopup } from '@skeletonlabs/skeleton';
 	import {
 		Drawer,
@@ -34,10 +35,10 @@
 	}
 </script>
 
-<Drawer>
+<Drawer transitions={false}>
 	<div class="relative">
 		<button
-			class=" drawer-button btn-icon bg-tertiary-400 absolute top-4 right-4 font-bold"
+			class=" drawer-button btn-icon bg-tertiary-400 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full"
 			on:click={drawerClose}><span>&times;</span></button
 		>
 		<div class="nav"><Navigation /></div>
@@ -70,5 +71,8 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<slot />
+	<svelte:fragment slot="sidebarLeft"><Navigation /></svelte:fragment>
+	<div class="container p-10 mx-auto bg-white text-black h-full">
+		<slot />
+	</div>
 </AppShell>

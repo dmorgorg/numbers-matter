@@ -99,7 +99,7 @@
 		padding-left: 0;
 		margin-left: -1rem;
 	}
-	.s {
-		color: red;
-	}
+	// .s {
+	// 	color: red;
+	// }
 </style>
