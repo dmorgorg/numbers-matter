@@ -13,7 +13,9 @@
 	<svelte:fragment slot="header">
 		<AppBar background="bg-surface-500">
 			<svelte:fragment slot="lead">
-				<button class="lg:hidden header-button btn rounded-full bg-tertiary-400 shadow-lg">
+				<button
+					class="lg:hidden header-button btn rounded-full bg-tertiary-400 shadow-lg px-3 py-2"
+				>
 					<span>
 						<svg viewBox="0 0 100 100" class=" w-5 h-5">
 							<rect width="150" height="20" />
