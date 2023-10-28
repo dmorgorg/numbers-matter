@@ -18,12 +18,12 @@
 	initializeStores();
 	const drawerStore = getDrawerStore();
 	const drawerSettings: DrawerSettings = {
-		id: 'top',
+		id: 'left',
 		bgDrawer: 'bg-surface-500',
 		bgBackdrop: 'bg-surface-200/80',
-		width: 'w-5/6 md:w-2/5 ',
+		width: 'w-5/6',
 		padding: 'py-5 pl-5',
-		border: 'rounded-lg'
+		border: 'rounded-none'
 	};
 
 	function drawerOpen(): void {
@@ -61,14 +61,14 @@
 					</span>
 				</button>
 			</svelte:fragment>
-			<svelte:fragment slot="trail"
-				><div
+			<svelte:fragment slot="trail">
+				<div
 					class="header-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-400 shadow-lg"
 				>
 					the-numbers-matter
-				</div></svelte:fragment
-			>
+				</div>
+			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<slot /></AppShell
->
+	<slot />
+</AppShell>

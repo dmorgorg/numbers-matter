@@ -14,41 +14,72 @@
 			</div>
 			<ul>
 				<li class="font-medium">
-					<NavLink href="/climate/renewables" title=" Renewables" {activeBackground} />
-				</li>
-				<ul>
-					<li class="font-medium">
-						<NavLink href="/climate/renewables/wind" title=" Wind" {activeBackground} />
-						<ul class="font-normal">
-							<li>
-								<NavLink
-									href="/climate/renewables/wind/turbines"
-									title=" Turbines"
-									{activeBackground}
-								/>
-							</li>
-						</ul>
-					</li>
-					<li class="font-medium">
-						<NavLink href="/climate/renewables/water" title="Water" {activeBackground} />
-					</li>
-					<li class="font-medium">
-						<NavLink href="/climate/renewables/solar" title="Solar" {activeBackground} />
-					</li>
-				</ul>
-				<li class="font-medium">
-					<NavLink href="/climate/fossils" title=" Fossil Fuels" {activeBackground} />
+					<NavLink href="/climate/problems" title="Problems" {activeBackground} />
+					<ul>
+						<li>
+							<NavLink
+								href="/climate/problems/pollution"
+								title="<s>Pollution</s>"
+								{activeBackground}
+							/>
+						</li>
+						<li>
+							<NavLink href="/climate/problems/warming" title="Warming" {activeBackground} />
+						</li>
+					</ul>
 				</li>
 				<li class="font-medium">
-					<NavLink href="/climate/consequences" title=" Consequences" {activeBackground} />
+					<NavLink href="/climate/solutions" title="Solutions" {activeBackground} />
+					<ul>
+						<li>
+							<NavLink
+								href="/climate/solutions/electricity"
+								title="Electricity"
+								{activeBackground}
+							/>
+							<ul>
+								<li class="font-normal">
+									<NavLink
+										href="/climate/solutions/electricity/generation"
+										title="Generation"
+										{activeBackground}
+									/>
+								</li>
+								<li class="font-normal">
+									<NavLink
+										href="/climate/solutions/electricity/storage"
+										title="Storage"
+										{activeBackground}
+									/>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<NavLink
+								href="/climate/solutions/transportation"
+								title="<s>Transportation</s>"
+								{activeBackground}
+							/>
+						</li>
+						<li>
+							<NavLink
+								href="/climate/solutions/housing"
+								title="<s>Housing</s>"
+								{activeBackground}
+							/>
+						</li>
+						<li>
+							<NavLink
+								href="/climate/solutions/industry"
+								title="<s>Industry</s>"
+								{activeBackground}
+							/>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</li>
-		<li class="py-2">
-			<span class="font-medium underline">
-				<NavLink href="/misc" title="Misc.ell.any" {activeBackground} />
-			</span>
-		</li>
+		<!-- end of climate -->
 	</ul>
 </nav>
 
@@ -67,5 +98,8 @@
 	nav {
 		padding-left: 0;
 		margin-left: -1rem;
+	}
+	.s {
+		color: red;
 	}
 </style>

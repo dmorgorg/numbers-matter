@@ -15,7 +15,7 @@
 </script>
 
 <a {href} class={active(href)} class:isActive={active(href) !== ''} on:click={drawerClose}
-	>{title}</a
+	>{@html title}</a
 >
 
 <style lang="postcss">
