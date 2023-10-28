@@ -1,0 +1,21 @@
+html {
+	font-size: clamp(8px, 4vw, 16px);
+	font-size: 4vw;
+	height: 100vh;
+}
+
+@media screen and (min-width: 640px) {
+	html {
+		font-size: clamp(12px, 3vw, 16px);
+	}
+}
+@media screen and (min-width: 768px) {
+	html {
+		font-size: clamp(16px, 2vw, 20px);
+	}
+}
+
+body {
+	height: 100vh;
+	// overflow-y: hidden;
+}
