@@ -17,12 +17,12 @@ body {
 	}
 }
 
-// @media screen and (min-width: 640px) {
-// 	html {
-// 		font-size: clamp(4px, 3vw, 30px);
-// 		font-size: 2vw;
-// 	}
-// }
+@media screen and (min-width: 640px) {
+	html {
+		font-size: clamp(4px, 3vw, 30px);
+		font-size: 2vw;
+	}
+}
 // @media screen and (min-width: 768px) {
 // 	html {
 // 		font-size: clamp(16px, 3vw, 20px);

@@ -12,12 +12,13 @@
 	</p>
 
 	<p>
-		You know what happens then: pieces of paper everywhere. And never the one you're looking for.
+		But you know what happens then: pieces of paper everywhere. And never the one you're looking
+		for.
 	</p>
 
 	<p>
-		When I'm not reading books, and when I'm not traveling on my bicycle, or napping, I like to
-		write code. To develop websites. Like this one. To keep track of some of those numbers.
+		When I'm not reading books or napping, and not away touring on my bicycle, I like to write code.
+		To develop websites. Like this one. To keep track of some of those numbers.
 	</p>
 
 	<p>
