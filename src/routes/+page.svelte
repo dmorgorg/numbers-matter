@@ -19,12 +19,14 @@
 	To develop websites. Like this one. To keep track of some of those numbers.
 </p>
 
+<p>I'm not an expert. In anything much. But neither do I eschew experts.</p>
+
 <p>
-	I'm not an expert. In anything much. But neither do I eschew experts. One lesson I have learned
-	from various stints at university is to listen carefully to those who are smarter than I am, who
-	know more about their field than I do &ndash; and have spent, in many cases, decades honing that
-	specialist knowledge. I could spend a lifetime on <a href="https://youtu.be" class="text-sky-600"
-		>YouTube</a
+	One lesson I have learned from various stints at university is to listen carefully to those who
+	are smarter than I am, who know more about their field than I do &ndash; and have spent, in many
+	cases, decades honing that specialist knowledge. I could spend a lifetime on <a
+		href="https://youtu.be"
+		class="text-sky-600">YouTube</a
 	> and still not be worthy to sit at their feet.
 </p>
 
