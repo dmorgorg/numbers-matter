@@ -45,7 +45,7 @@
 	</div>
 </Drawer>
 
-<AppShell slotSidebarLeft="w-0 lg:w-64 bg-surface-500">
+<AppShell slotSidebarLeft="w-0 lg:w-64 bg-surface-500" class="bg-white">
 	<svelte:fragment slot="header">
 		<AppBar background="bg-surface-500">
 			<svelte:fragment slot="lead">
@@ -72,7 +72,6 @@
 		</AppBar>
 	</svelte:fragment>
 	<svelte:fragment slot="sidebarLeft"><Navigation /></svelte:fragment>
-	<div class="container p-10 mx-auto bg-white text-black">
-		<slot />
-	</div>
+	<!-- page content -->
+	<slot />
 </AppShell>
