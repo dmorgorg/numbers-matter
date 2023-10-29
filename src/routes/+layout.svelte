@@ -72,7 +72,7 @@
 		</AppBar>
 	</svelte:fragment>
 	<svelte:fragment slot="sidebarLeft"><Navigation /></svelte:fragment>
-	<div class="container p-10 mx-auto bg-white text-black h-full">
+	<div class="container p-10 mx-auto bg-white text-black">
 		<slot />
 	</div>
 </AppShell>

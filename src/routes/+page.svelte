@@ -2,7 +2,7 @@
 	import PageHeader from '$lib/components/PageHeader.svelte';
 </script>
 
-<section id="page">
+<section id="pager">
 	<PageHeader>What's this all about?</PageHeader>
 
 	<p>
@@ -37,16 +37,19 @@
 	</p>
 
 	<p>
-		If you find errors (verifiable errors &ndash; as in including a link to a credible publication
-		that refutes my assertion, to help me with any corrections) on this site, please mail me at
+		If you find errors on this site, please mail me at
 		<span class="font-mono">dave&ndash;at&ndash;dmorg.org</span>
-		with the words "Numbers Error!" or equivalent in the subject.
+		with the words "Numbers Error!" or equivalent in the subject. Include a link to a credible publication
+		that refutes my assertion, to help me with any corrections
 	</p>
 
 	<p>
-		This site is primarily for my own personal use and entertainment. But who knows, it may even
-		help you resolve some disputed point during a lively discussion in the pub on a Tuesday night.
-		Feedback will help keep me focused on adding more content but this will never become a
+		This site is primarily for my own personal use and entertainment. But who knows? It might help
+		you resolve a disputed point during lively discussion in the pub on a Tuesday night!
+	</p>
+
+	<p>
+		Some feedback will help keep me focused on adding more content but this will never become a
 		comprehensive resource: I am easily distracted &ndash; and I have too many other time-consuming
 		rabbit-holes to explore. The content, such as it is, will reflect my own interests. And I do
 		have some biases: I believe that the earth is not flat, that man did set foot on the moon, that
