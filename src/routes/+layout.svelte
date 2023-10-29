@@ -64,9 +64,9 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div
-					class="header-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-400 shadow-lg"
+					class="header-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-400 shadow-lg text-xl"
 				>
-					the-numbers-matter
+					numbers-matter
 				</div>
 			</svelte:fragment>
 		</AppBar>

@@ -88,8 +88,12 @@
 <style lang="scss">
 	ul {
 		list-style: none;
-		padding-left: 2rem;
+		padding-left: 1.25rem;
 		margin-left: 0;
+
+		&:first-of-type {
+			color: red;
+		}
 
 		li {
 			margin: 0.5em;
@@ -97,9 +101,6 @@
 	}
 	nav {
 		padding-left: 0;
-		margin-left: -1rem;
+		margin-left: 0;
 	}
-	// .s {
-	// 	color: red;
-	// }
 </style>
