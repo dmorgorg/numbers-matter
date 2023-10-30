@@ -29,21 +29,37 @@
 					</ul>
 				</li>
 				<li class="font-medium">
-					<NavLink href="/climate/solutions" title="Solutions" {activeBackground} />
-					<ul>
+					<NavLink href="/climate/solutions" title="Which Solutions Work" {activeBackground} />
+					<ul class="section">
 						<li>
 							<NavLink
 								href="/climate/solutions/electricity"
 								title="Electricity"
 								{activeBackground}
 							/>
-							<ul>
+							<ul class="subsection">
 								<li class="font-normal">
 									<NavLink
 										href="/climate/solutions/electricity/generation"
 										title="Generation"
 										{activeBackground}
 									/>
+									<ul class="subsubsection">
+										<li class="font-normal">
+											<NavLink
+												href="/climate/solutions/electricity/generation/wind"
+												title="Wind"
+												{activeBackground}
+											/>
+										</li>
+										<li class="font-normal">
+											<NavLink
+												href="/climate/solutions/electricity/generation/solar"
+												title="Solar"
+												{activeBackground}
+											/>
+										</li>
+									</ul>
 								</li>
 								<li class="font-normal">
 									<NavLink
@@ -77,6 +93,26 @@
 						</li>
 					</ul>
 				</li>
+				<li class="font-medium">
+					<NavLink
+						href="/climate/notSolutions"
+						title="<s>Which Don't Work (Yet)</s>"
+						{activeBackground}
+					/>
+					<ul>
+						<li>
+							<NavLink href="/climate/notSolutions/ccs" title="CCS" {activeBackground} />
+						</li>
+					</ul>
+				</li>
+				<li class="font-medium">
+					<NavLink href="/climate/misc" title="Miscellaneous</s>" {activeBackground} />
+					<ul>
+						<li>
+							<NavLink href="/climate/misc/subsidies" title="Subsidies" {activeBackground} />
+						</li>
+					</ul>
+				</li>
 			</ul>
 		</li>
 		<!-- end of climate -->
@@ -90,13 +126,11 @@
 		list-style: none;
 		padding-left: 1.25rem;
 		margin-left: 0;
-
-		&:first-of-type {
-			color: red;
-		}
+		margin-top: 0.25em;
 
 		li {
-			margin: 0.5em;
+			margin: 0.125em;
+			margin: 0;
 		}
 	}
 	nav {

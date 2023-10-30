@@ -20,12 +20,17 @@
 
 <style lang="postcss">
 	a {
-		border-radius: 0.375rem;
+		border-radius: 0.375em;
 		color: black;
-		padding: 0.125rem 0.375rem;
+		padding: 0.025em 0.375em 0.0625em 0.375em;
+		padding: 0 0.375em;
+
+		&.isActive {
+			box-shadow: 0.1em 0.1em 0.5em 0.025em rgb(0 0 0 / 0.25);
+		}
 
 		&:hover {
-			color: inherit;
+			box-shadow: 0.1em 0.1em 0.5em 0.025em rgb(0 0 0 / 0.125);
 
 			&.isActive {
 				@apply bg-tertiary-300;

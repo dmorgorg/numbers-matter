@@ -25,4 +25,7 @@
 	.right {
 		justify-content: flex-end;
 	}
+	/* .page-header {
+		box-shadow: 0.05em 0.05em 0.15em rgb(0 0 0 / 0.25);
+	} */
 </style>

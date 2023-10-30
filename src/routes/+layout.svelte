@@ -23,7 +23,7 @@
 		bgDrawer: 'bg-surface-500',
 		bgBackdrop: 'bg-surface-200/80',
 		width: 'w-5/6',
-		padding: 'py-5 pl-5',
+		// padding: 'py-2 pl-2',
 		border: 'rounded-none'
 	};
 
@@ -38,7 +38,7 @@
 <Drawer transitions={false}>
 	<div class="relative">
 		<button
-			class=" drawer-button btn-icon bg-tertiary-400 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full"
+			class=" drawer-button btn-icon bg-tertiary-400 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full text-black"
 			on:click={drawerClose}><span>&times;</span></button
 		>
 		<div class="nav"><Navigation /></div>
@@ -50,7 +50,7 @@
 		<AppBar background="bg-surface-500">
 			<svelte:fragment slot="lead">
 				<button
-					class="lg:hidden header-button btn rounded-full bg-tertiary-400 shadow-lg px-3 py-2"
+					class="lg:hidden header-button btn rounded-full bg-tertiary-400 shadow-lg px-5 py-3 drawer-button"
 					on:click={drawerOpen}
 				>
 					<span>
@@ -64,7 +64,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div
-					class="header-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-400 shadow-lg text-xl"
+					class="site-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-400 shadow-lg text-xl"
 				>
 					numbers-matter
 				</div>
