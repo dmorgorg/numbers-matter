@@ -1,5 +1,5 @@
 <script>
-	import Entry from '$lib/components/Entry2.svelte';
+	import Entry from '$lib/components/Entry.svelte';
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import TT from '$lib/components/ToolTip.svelte';
 </script>
