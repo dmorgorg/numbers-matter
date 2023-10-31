@@ -11,17 +11,12 @@
 
 <style lang="postcss">
 	.trigger {
-		/* background: #e0e4ec; */
-		/* background: white; */
-		/* @apply text-tertiary-500; */
-		/* @apply font-medium; */
-		/* text-decoration: underline; */
 		border-radius: 0.25em;
 		display: inline-block;
 		/* font-weight: bold; */
 		padding: 0 0.125em;
 		position: relative;
-		z-index: 100;
+		/* z-index: 10; */
 
 		&:hover {
 			cursor: pointer;
@@ -56,7 +51,7 @@
 			transition: all 0.2s 0.1s ease-in-out;
 			/* visibility: hidden; */
 			width: max-content;
-			z-index: 100;
+			/* z-index: 10; */
 			text-align: center;
 
 			&::before {

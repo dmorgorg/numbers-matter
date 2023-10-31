@@ -1,5 +1,7 @@
 <script lang="ts">
 	import NavLink from '$lib/components/NavLink.svelte';
+	import NavLink2 from '$lib/components/NavLink2.svelte';
+	import TT from './ToolTip.svelte';
 	let activeBackground = 'bg-tertiary-400';
 </script>
 
@@ -14,7 +16,7 @@
 			</div>
 			<ul>
 				<li class="font-medium">
-					<NavLink href="/climate/problems" title="Problems" {activeBackground} />
+					<NavLink href="/climate/problems" title="Problems:" {activeBackground} />
 					<ul>
 						<li>
 							<NavLink
@@ -29,7 +31,7 @@
 					</ul>
 				</li>
 				<li class="font-medium">
-					<NavLink href="/climate/solutions" title="Which Solutions Work" {activeBackground} />
+					<NavLink href="/climate/solutions" title="Solutions:" {activeBackground} />
 					<ul class="section">
 						<li>
 							<NavLink
@@ -91,27 +93,32 @@
 								{activeBackground}
 							/>
 						</li>
+						<li>
+							<NavLink2 href="/climate/solutions/ccs" {activeBackground}
+								><TT tt={['CCS', 'Carbon Capture and Storage']} /></NavLink2
+							>
+							<ul>
+								<li class="font-normal">
+									<NavLink2 href="/climate/solutions/ccs/dac" {activeBackground}
+										><TT tt={['DAC', 'Direct Air Capture']} />
+									</NavLink2>
+								</li>
+							</ul>
+							<!-- </li> -->
+						</li>
 					</ul>
 				</li>
+
 				<li class="font-medium">
-					<NavLink
-						href="/climate/notSolutions"
-						title="<s>Which Don't Work (Yet)</s>"
-						{activeBackground}
-					/>
+					<NavLink href="/climate/misc" title="<s>Miscellaneous</s>" {activeBackground} />
 					<ul>
 						<li>
-							<NavLink href="/climate/notSolutions/ccs" title="CCS" {activeBackground} />
+							<NavLink href="/climate/misc/subsidies" title="<s>Subsidies</s>" {activeBackground} />
 						</li>
 					</ul>
 				</li>
 				<li class="font-medium">
-					<NavLink href="/climate/misc" title="Miscellaneous</s>" {activeBackground} />
-					<ul>
-						<li>
-							<NavLink href="/climate/misc/subsidies" title="Subsidies" {activeBackground} />
-						</li>
-					</ul>
+					<NavLink href="/climate/acronyms" title="Acronyms Used" {activeBackground} />
 				</li>
 			</ul>
 		</li>

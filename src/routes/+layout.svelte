@@ -71,7 +71,13 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<svelte:fragment slot="sidebarLeft"><Navigation /></svelte:fragment>
+	<svelte:fragment slot="sidebarLeft"><div class="sidebar"><Navigation /></div></svelte:fragment>
 	<!-- page content -->
 	<slot />
 </AppShell>
+
+<style>
+	.sidebar {
+		z-index: 1000;
+	}
+</style>

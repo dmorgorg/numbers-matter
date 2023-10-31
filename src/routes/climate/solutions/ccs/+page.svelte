@@ -6,10 +6,10 @@
 
 <PageHeader>Carbon Capture and Storage (CCS)</PageHeader>
 
-<style>
+<!-- <style>
 	ul {
 		list-style-type: disc;
 		margin-top: 1em;
 		margin-left: 2em;
 	}
-</style>
+</style> -->

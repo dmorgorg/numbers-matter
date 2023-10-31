@@ -28,15 +28,9 @@
 		@apply bg-tertiary-50;
 	}
 	.entry-toggle-button {
-		/* display: inline-block; */
-		/* padding: 0;
-		margin: 0;
-		vertical-align: middle;
-		min-width: 2em;
-		min-height: 1.25em; */
+		padding-bottom: 0.1em;
 		border-radius: 50%;
 		height: 1.5em;
-
 		aspect-ratio: 1;
 	}
 	.num {
@@ -45,6 +39,6 @@
 	.slot {
 		width: 90%;
 		margin: 0 auto;
-		font-size: 95%;
+		font-size: 90%;
 	}
 </style>
