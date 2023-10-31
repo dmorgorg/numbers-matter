@@ -7,12 +7,9 @@
 </script>
 
 <section class="entry card p-4 flex flex-col relative">
-	<button
-		class="entry-toggle-button btn-icon btn-sm rounded-full bg-tertiary-400 absolute right-0 -top-4 -right-4"
-		on:click={toggle}
-	>
+	<button class="entry-toggle-button bg-tertiary-400 absolute -top-2 -right-2" on:click={toggle}>
 		{#if !open}
-			&plus;
+			+
 		{:else}
 			&minus;
 		{/if}</button
@@ -31,6 +28,16 @@
 		@apply bg-tertiary-50;
 	}
 	.entry-toggle-button {
+		/* display: inline-block; */
+		/* padding: 0;
+		margin: 0;
+		vertical-align: middle;
+		min-width: 2em;
+		min-height: 1.25em; */
+		border-radius: 50%;
+		height: 1.5em;
+
+		aspect-ratio: 1;
 	}
 	.num {
 		/* text-shadow: 0 0 0.2rem black; */
