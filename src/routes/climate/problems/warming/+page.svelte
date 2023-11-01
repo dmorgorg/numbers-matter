@@ -3,7 +3,6 @@
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import TT from '$lib/components/ToolTip.svelte';
 	import FN from '$lib/components/Footnote.svelte';
-
 	let footnotes: Array<string> = [];
 </script>
 

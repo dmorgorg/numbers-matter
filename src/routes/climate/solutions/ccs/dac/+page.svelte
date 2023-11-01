@@ -9,6 +9,43 @@
 
 <PageHeader>Direct Air Capture (DAC)</PageHeader>
 <Entry>
+	<span slot="num"><TT tt={['1.5<sup>o</sup>C', '2.7<sup>o</sup>F']} /></span>
+	<span slot="lead"
+		>In order to limit global warming to<TT tt={['1.5<sup>o</sup>C', '2.7<sup>o</sup>F']} />, carbon
+		dioxide removal (CDR) will be necessary.
+		<FN
+			{footnotes}
+			desc="'IPCC Special Report: Global Warming of 1.5<sup>o</sup>C.'<br/>"
+			href="https://www.ipcc.ch/sr15/chapter/spm/"
+		/>
+	</span>
+	<ul>
+		<li>
+			test<FN
+				{footnotes}
+				desc="'IPCC Special Report: Global Warming of 1.5<sup>o</sup>C.'<br/>"
+				href="https://www.ipcc.ch/sr15/chapter/spm/"
+			/>
+		</li>
+	</ul>
+	<div class="container">
+		<div class="footnotes">
+			{#if footnotes.length === 1}
+				<h1>Reference:</h1>
+			{:else if footnotes.length > 1}
+				<h1>References:</h1>
+			{/if}
+
+			{#each footnotes as note, i}
+				<div class="footnote">
+					[{i + 1}] {@html note[0]}
+					<a href={note[1]}>{note[2]}</a>
+				</div>
+			{/each}
+		</div>
+	</div>
+</Entry>
+<Entry>
 	<span slot="num"><TT tt={['1bn tonnes', '1.1bn tons']} /></span>
 	<span slot="lead"
 		>One billion tonnes of glacial rock flour (GRF) is produced annually by the glacial erosion (or
@@ -17,7 +54,7 @@
 	>
 	<ul>
 		<li>
-			An estimated capture of <TT tt={['728 kg/ha', '650 lb/ac']} /> CO<sub>2</sub> from the
+			An estimated <TT tt={['728 kg/ha', '650 lb/ac']} /> CO<sub>2</sub> may be captured from the
 			atmosphere after the application of <TT tt={['50 tonnes/ha', '20 tons/ac']} /> of Greenlandic glacial
 			rock flour to acidic sandy soil in Denmark over a period of three years.
 			<FN
@@ -41,9 +78,9 @@
 	<div class="container">
 		<div class="footnotes">
 			{#if footnotes.length === 1}
-				<h1>Link/Reference:</h1>
+				<h1>Reference:</h1>
 			{:else if footnotes.length > 1}
-				<h1>Links/References:</h1>
+				<h1>References:</h1>
 			{/if}
 
 			{#each footnotes as note, i}

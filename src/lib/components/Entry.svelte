@@ -1,9 +1,11 @@
-<script>
+<script lang="ts">
 	let open = false;
 
 	function toggle() {
 		open = !open;
 	}
+
+	let footnotes: Array<string> = [];
 </script>
 
 <section class="entry card p-4 flex flex-col relative">
@@ -21,11 +23,30 @@
 	{#if open}
 		<div class="slot"><slot /></div>
 	{/if}
+	<div class="container">
+		<div class="footnotes">
+			{#if footnotes.length === 1}
+				<h1>Link/Reference:</h1>
+			{:else if footnotes.length > 1}
+				<h1>Links/References:</h1>
+			{/if}
+
+			{#each footnotes as note, i}
+				<div class="footnote">
+					[{i + 1}] {note[0]}
+					<a href={note[1]}>{note[2]}</a>
+				</div>
+			{/each}
+		</div>
+	</div>
 </section>
 
 <style lang="postcss">
-	.entry.card {
-		@apply bg-tertiary-50;
+	.entry {
+		margin-bottom: 1.5em;
+		&.card {
+			@apply bg-tertiary-50;
+		}
 	}
 	.entry-toggle-button {
 		padding-bottom: 0.1em;

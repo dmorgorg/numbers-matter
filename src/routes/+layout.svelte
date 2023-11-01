@@ -20,9 +20,9 @@
 	const drawerStore = getDrawerStore();
 	const drawerSettings: DrawerSettings = {
 		id: 'left',
-		bgDrawer: 'bg-surface-500',
+		bgDrawer: 'bg-gray-500',
 		bgBackdrop: 'bg-surface-200/80',
-		width: 'w-5/6',
+		width: 'w-1/2',
 		// padding: 'py-2 pl-2',
 		border: 'rounded-none'
 	};
@@ -45,9 +45,9 @@
 	</div>
 </Drawer>
 
-<AppShell slotSidebarLeft="w-0 lg:w-64 bg-surface-500" class="bg-white">
+<AppShell slotSidebarLeft="w-0 lg:w-64 bg-gray-500" class="bg-white">
 	<svelte:fragment slot="header">
-		<AppBar background="bg-surface-500">
+		<AppBar background="bg-gray-500">
 			<svelte:fragment slot="lead">
 				<button
 					class="lg:hidden header-button btn rounded-full bg-tertiary-400 shadow-lg px-5 py-3 drawer-button"
@@ -76,8 +76,8 @@
 	<slot />
 </AppShell>
 
-<style>
+<!-- <style>
 	.sidebar {
 		z-index: 1000;
 	}
-</style>
+</style> -->
