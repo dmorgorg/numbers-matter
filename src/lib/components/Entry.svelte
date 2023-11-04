@@ -1,17 +1,23 @@
 <script lang="ts">
-	let open = false;
+	import FootnoteDisplay from '$lib/components/FootnoteDisplay.svelte';
+	export let footnotes: Array<any>;
 
+	// first <Entry> has entry=0, etc.
+	let entryIndex = footnotes.length;
+	// create an array to hold the footnotes for this <Entry>
+	footnotes[entryIndex] = [];
+
+	let open = false;
 	function toggle() {
 		open = !open;
 	}
-
-	let footnotes: Array<string> = [];
 </script>
 
 <section class="entry card p-4 flex flex-col relative">
+	<!-- {entry} -->
 	<button class="entry-toggle-button bg-tertiary-400 absolute -top-2 -right-2" on:click={toggle}>
 		{#if !open}
-			+
+			&plus;
 		{:else}
 			&minus;
 		{/if}</button
@@ -22,23 +28,8 @@
 	</header>
 	{#if open}
 		<div class="slot"><slot /></div>
+		<FootnoteDisplay {entryIndex} {footnotes} />
 	{/if}
-	<div class="container">
-		<div class="footnotes">
-			{#if footnotes.length === 1}
-				<h1>Link/Reference:</h1>
-			{:else if footnotes.length > 1}
-				<h1>Links/References:</h1>
-			{/if}
-
-			{#each footnotes as note, i}
-				<div class="footnote">
-					[{i + 1}] {note[0]}
-					<a href={note[1]}>{note[2]}</a>
-				</div>
-			{/each}
-		</div>
-	</div>
 </section>
 
 <style lang="postcss">

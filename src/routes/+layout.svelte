@@ -20,7 +20,7 @@
 	const drawerStore = getDrawerStore();
 	const drawerSettings: DrawerSettings = {
 		id: 'left',
-		bgDrawer: 'bg-gray-500',
+		bgDrawer: 'bg-tertiary-700',
 		bgBackdrop: 'bg-surface-200/80',
 		width: 'w-1/2',
 		// padding: 'py-2 pl-2',
@@ -38,19 +38,19 @@
 <Drawer transitions={false}>
 	<div class="relative">
 		<button
-			class=" drawer-button btn-icon bg-tertiary-400 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full text-black"
+			class=" drawer-button btn-icon bg-tertiary-500 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full text-black"
 			on:click={drawerClose}><span>&times;</span></button
 		>
 		<div class="nav"><Navigation /></div>
 	</div>
 </Drawer>
 
-<AppShell slotSidebarLeft="w-0 lg:w-64 bg-gray-500" class="bg-white">
+<AppShell slotSidebarLeft="w-0 lg:w-64 bg-tertiary-600" class="bg-white">
 	<svelte:fragment slot="header">
-		<AppBar background="bg-gray-500">
+		<AppBar background="bg-tertiary-800">
 			<svelte:fragment slot="lead">
 				<button
-					class="lg:hidden header-button btn rounded-full bg-tertiary-400 shadow-lg px-5 py-3 drawer-button"
+					class="lg:hidden header-button btn rounded-full bg-tertiary-500 shadow-lg px-5 py-3 drawer-button"
 					on:click={drawerOpen}
 				>
 					<span>

@@ -3,11 +3,13 @@
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import TT from '$lib/components/ToolTip.svelte';
 	import FN from '$lib/components/Footnote.svelte';
-	let footnotes: Array<string> = [];
+
+	let footnotes: Array<string> = ['hello world'];
 </script>
 
 <PageHeader>Effects of Global Warming</PageHeader>
-<Entry>
+
+<Entry bind:footnotes>
 	<span slot="num"><TT tt={['7m', '23 feet']} /></span>
 	<span slot="lead"
 		>The Greenland ice sheet is melting. At our current rate of increasing carbon emissions, we are
@@ -45,17 +47,13 @@
 				desc="Local redirect within this site:"
 			/>
 		</li>
-		<li>
-			The good news is that it won't all happen at once; the rise will be gradual, allowing plenty
-			of time to pack up your beachfront home and move inland.
-		</li>
 	</ul>
 	<div class="container">
 		<div class="footnotes">
 			{#if footnotes.length === 1}
-				<h1>Link/Reference:</h1>
+				<h1>Reference:</h1>
 			{:else if footnotes.length > 1}
-				<h1>Links/References:</h1>
+				<h1>References:</h1>
 			{/if}
 
 			{#each footnotes as note, i}
@@ -77,7 +75,7 @@
 	li {
 		margin-bottom: 0.5em;
 	}
-	.container {
+	/* .container {
 		width: 80%;
 		margin: 0 auto;
 		display: flex;
@@ -90,7 +88,7 @@
 			align-self: center;
 			align-items: flex-start;
 			/* font-size: 80%; */
-			@apply text-tertiary-500;
+	/* @apply text-tertiary-500;
 			align-items: flex-start;
 
 			h1 {
@@ -106,5 +104,5 @@
 				text-indent: -2.5em;
 			}
 		}
-	}
+	} */
 </style>

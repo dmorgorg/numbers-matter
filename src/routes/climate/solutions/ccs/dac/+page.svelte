@@ -8,7 +8,7 @@
 </script>
 
 <PageHeader>Direct Air Capture (DAC)</PageHeader>
-<Entry>
+<Entry {footnotes}>
 	<span slot="num"><TT tt={['1.5<sup>o</sup>C', '2.7<sup>o</sup>F']} /></span>
 	<span slot="lead"
 		>In order to limit global warming to<TT tt={['1.5<sup>o</sup>C', '2.7<sup>o</sup>F']} />, carbon
@@ -16,36 +16,15 @@
 		<FN
 			{footnotes}
 			desc="'IPCC Special Report: Global Warming of 1.5<sup>o</sup>C.'<br/>"
-			href="https://www.ipcc.ch/sr15/chapter/spm/"
+			url="https://www.ipcc.ch/sr15/chapter/spm/"
 		/>
 	</span>
 	<ul>
-		<li>
-			test<FN
-				{footnotes}
-				desc="'IPCC Special Report: Global Warming of 1.5<sup>o</sup>C.'<br/>"
-				href="https://www.ipcc.ch/sr15/chapter/spm/"
-			/>
-		</li>
+		<li>first item</li>
+		<li>second</li>
 	</ul>
-	<div class="container">
-		<div class="footnotes">
-			{#if footnotes.length === 1}
-				<h1>Reference:</h1>
-			{:else if footnotes.length > 1}
-				<h1>References:</h1>
-			{/if}
-
-			{#each footnotes as note, i}
-				<div class="footnote">
-					[{i + 1}] {@html note[0]}
-					<a href={note[1]}>{note[2]}</a>
-				</div>
-			{/each}
-		</div>
-	</div>
 </Entry>
-<Entry>
+<Entry {footnotes}>
 	<span slot="num"><TT tt={['1bn tonnes', '1.1bn tons']} /></span>
 	<span slot="lead"
 		>One billion tonnes of glacial rock flour (GRF) is produced annually by the glacial erosion (or
@@ -60,7 +39,7 @@
 			<FN
 				{footnotes}
 				desc="'Quantification of CO2 uptake by enhanced weathering of silicate minerals applied to acidic soils.'<br/>"
-				href="https://www.sciencedirect.com/science/article/pii/S1750583623000427?via%3Dihub#bib0021"
+				url="https://www.sciencedirect.com/science/article/pii/S1750583623000427?via%3Dihub#bib0021"
 			/>
 		</li>
 		<li>
@@ -68,29 +47,9 @@
 			<TT tt={['GRF', 'Glacial rock flour']} /> were added to crops of maize and potato. Maize yields
 			increased by 24% and potato yields by 19% for the year of application of GRF. No long term improvements
 			were noted.
-			<FN
-				{footnotes}
-				desc="'Greenlandic glacial rock flour improves crop yield in organic agricultural production.'<br/>"
-				href="https://link.springer.com/article/10.1007/s10705-023-10274-0"
-			/>
+			<FN {footnotes} desc="'Just something different'." url="https://numbers-matter.org" />
 		</li>
 	</ul>
-	<div class="container">
-		<div class="footnotes">
-			{#if footnotes.length === 1}
-				<h1>Reference:</h1>
-			{:else if footnotes.length > 1}
-				<h1>References:</h1>
-			{/if}
-
-			{#each footnotes as note, i}
-				<div class="footnote">
-					[{i + 1}] {@html note[0]}
-					<a href={note[1]}>{note[2]}</a>
-				</div>
-			{/each}
-		</div>
-	</div>
 </Entry>
 
 <style lang="postcss">
@@ -101,35 +60,5 @@
 	}
 	li {
 		margin-bottom: 0.5em;
-	}
-	.container {
-		width: 80%;
-		margin: 0 auto;
-		display: flex;
-		justify-content: center;
-		padding-top: 1em;
-
-		.footnotes {
-			display: flex;
-			flex-direction: column;
-			align-self: center;
-			align-items: flex-start;
-			/* font-size: 80%; */
-			@apply text-tertiary-500;
-			align-items: flex-start;
-
-			h1 {
-				color: black;
-				text-decoration: underline;
-				margin-bottom: 0.25em;
-				align-self: center;
-			}
-
-			.footnote {
-				font-size: 85%;
-				padding-left: 1.5em;
-				text-indent: -1.5em;
-			}
-		}
 	}
 </style>

@@ -45,7 +45,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 70%;
+		width: 90%;
 		margin: 0 auto;
 	}
 	dl {
@@ -73,8 +73,21 @@
 		padding: 0.05em 1em;
 		/* border: solid #333;
 		border-width: 1px 1px 1px 0; */
-		@apply bg-tertiary-50;
+		@apply bg-gray-200;
 		border-left: 0.5em solid white;
 		@apply rounded-e-full;
+	}
+
+	@media screen and (min-width: 768px) {
+		.container {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+	@media screen and (min-width: 1024px) {
+		.container {
+			width: 70%;
+			margin: 0 auto;
+		}
 	}
 </style>

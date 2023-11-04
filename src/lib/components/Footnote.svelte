@@ -1,18 +1,21 @@
 <script lang="ts">
 	export let footnotes;
 	export let desc;
-	export let href;
-	export let chars = 60;
-	let truncated = href.slice(0, chars);
-	if (truncated.length < href.length) {
+	export let url: string;
+	export let chars = 50;
+	let truncated = url.slice(0, chars);
+	if (truncated.length < url.length) {
 		truncated += ' . . .';
 	}
 
-	let index = footnotes.length;
-	footnotes[index] = [desc, href, truncated];
+	// get index for this entry
+	// footnotes already has footnotes[entry] created so subtract 1 to get back to indices
+	let entry = footnotes.length - 1;
+	let footnoteIndex = footnotes[entry].length;
+	footnotes[entry][footnoteIndex] = [desc, url, truncated];
 </script>
 
-<span>[{index + 1}]</span>
+<span> <a href={url}>[{footnoteIndex + 1}]</a></span>
 
 <style lang="postcss">
 	span {
