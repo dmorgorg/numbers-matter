@@ -47,7 +47,7 @@
 
 <AppShell slotSidebarLeft="w-0 lg:w-64 bg-tertiary-600" class="bg-white">
 	<svelte:fragment slot="header">
-		<AppBar background="bg-tertiary-600" border="red">
+		<AppBar background="bg-tertiary-600 z-0">
 			<svelte:fragment slot="lead">
 				<button
 					class="lg:hidden header-button btn rounded-full bg-tertiary-300 shadow-lg px-5 py-3 drawer-button"
