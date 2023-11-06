@@ -26,7 +26,23 @@
 							/>
 						</li>
 						<li>
-							<NavLink href="/climate/problems/warming" title="Warming" {activeBackground} />
+							<NavLink href="/climate/problems/warming" title="<s>Warming</s>" {activeBackground} />
+							<ul>
+								<li class="font-normal">
+									<NavLink
+										href="/climate/problems/warming/causes"
+										title="Causes"
+										{activeBackground}
+									/>
+								</li>
+								<li class="font-normal">
+									<NavLink
+										href="/climate/problems/warming/effects"
+										title="Effects"
+										{activeBackground}
+									/>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</li>
@@ -118,7 +134,7 @@
 					</ul>
 				</li>
 				<li class="font-medium">
-					<NavLink href="/climate/acronyms" title="Acronyms Used" {activeBackground} />
+					<NavLink href="/climate/acronyms" title="Acronyms Explained" {activeBackground} />
 				</li>
 			</ul>
 		</li>

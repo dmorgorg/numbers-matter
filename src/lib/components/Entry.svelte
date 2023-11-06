@@ -30,7 +30,7 @@
 			<b>&minus;</b>
 		{/if}</button
 	>
-	<section class="entry card flex flex-col p-4" class:blank class:headless>
+	<section class="entry card flex flex-col p-4 border-s-8 lg:border-s-0" class:blank class:headless>
 		<header class="flex items-center flex-start">
 			<span class="num text-tertiary-600 font-bold text-2xl"><slot name="num" /> </span>
 			<div class="ml-4"><slot name="lead" /></div>
@@ -46,7 +46,7 @@
 <style lang="postcss">
 	section {
 		border-color: #598792;
-		@apply border-s-8;
+		/* @apply border-s-8; */
 	}
 	.entry {
 		margin-bottom: 1.5em;
