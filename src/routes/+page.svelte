@@ -55,6 +55,12 @@
 	some biases: I believe that the earth is not flat, that man did set foot on the moon, that
 	vaccines save lives &ndash; and that Dunning-Kruger is everywhere.
 </p>
+<p>
+	As this is primarily a hobby-site where I am experimenting somewhat with web-technologies, you may
+	find the 'user-experience' (UX) a little different. Also, the units I use default to metric, or
+	SI. If you come from Liberia, Myanmar or the United States of America, and require 'imperial'
+	units, hover over any unit that is in bold text for the old-fashioned equivalent ;-)
+</p>
 
 <p>Cheers, Dave.</p>
 

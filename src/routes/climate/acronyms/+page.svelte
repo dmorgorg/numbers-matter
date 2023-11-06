@@ -1,15 +1,15 @@
 <script lang="ts">
-	import Entry from '$lib/components/Entry.svelte';
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import TT from '$lib/components/ToolTip.svelte';
-	import FN from '$lib/components/Footnote.svelte';
-
-	let footnotes: Array<string> = [];
 </script>
 
 <PageHeader>Acronyms Used</PageHeader>
 
 <div class="container">
+	<dl>
+		<dt>BECCS</dt>
+		<dd>Bioenergy with Carbon Capture and Storage</dd>
+	</dl>
 	<dl>
 		<dt>CCS</dt>
 		<dd>Carbon Capture and Storage</dd>
@@ -24,7 +24,15 @@
 	</dl>
 	<dl>
 		<dt>ERW</dt>
-		<dd>Earth Rock Weathering</dd>
+		<dd>
+			<TT
+				tt={[
+					'Enhanced Rock Weathering',
+					'Natural rock weathering occurs over hundreds of thousands of years: rain combines with CO<sub>2</sub> in the atmosphere to form a diluted carbonic acid. When this acid falls onto rocks and soil, there is an interaction where the rock sequesters the CO<sub>2</sub>. This process reduces the amount of CO<sub>2</sub> in the atmosphere, and is thought to have played a part in maintaining CO<sub>2</sub> levels in the atmosphere over many thousands of years.<br/><br/> This is an extremely slow process which enhanced rock weathering (ERW) accelerates. Rock, typically basalt, is crushed to increase its surface area to volume ratio, speeding up the sequestration process, and spread on soil where it absorbs CO<sub>2</sub>.'
+				]}
+				maxWidth="x-wide"
+			/>
+		</dd>
 	</dl>
 	<dl>
 		<dt>GMT</dt>
@@ -32,7 +40,19 @@
 	</dl>
 	<dl>
 		<dt>GRF</dt>
-		<dd>Glacial Rock Flour</dd>
+		<dd>
+			<TT
+				tt={[
+					'Glacial Rock Flour',
+					'Rock powder, caused by "grinding" between rock and glacial ice.'
+				]}
+				maxWidth="medium"
+			/>
+		</dd>
+	</dl>
+	<dl>
+		<dt>NZE</dt>
+		<dd>Net Zero Emissions</dd>
 	</dl>
 	<dl>
 		<dt>SLR</dt>

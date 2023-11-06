@@ -38,7 +38,7 @@
 <Drawer transitions={false}>
 	<div class="relative">
 		<button
-			class=" drawer-button btn-icon bg-tertiary-500 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full text-black"
+			class=" drawer-button btn-icon bg-tertiary-300 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full text-black"
 			on:click={drawerClose}><span>&times;</span></button
 		>
 		<div class="nav"><Navigation /></div>
@@ -47,10 +47,10 @@
 
 <AppShell slotSidebarLeft="w-0 lg:w-64 bg-tertiary-600" class="bg-white">
 	<svelte:fragment slot="header">
-		<AppBar background="bg-tertiary-800">
+		<AppBar background="bg-tertiary-600" border="red">
 			<svelte:fragment slot="lead">
 				<button
-					class="lg:hidden header-button btn rounded-full bg-tertiary-500 shadow-lg px-5 py-3 drawer-button"
+					class="lg:hidden header-button btn rounded-full bg-tertiary-300 shadow-lg px-5 py-3 drawer-button"
 					on:click={drawerOpen}
 				>
 					<span>
@@ -64,7 +64,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div
-					class="site-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-400 shadow-lg text-xl"
+					class="site-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-300 shadow-lg text-xl"
 				>
 					numbers-matter
 				</div>
@@ -75,9 +75,3 @@
 	<!-- page content -->
 	<slot />
 </AppShell>
-
-<!-- <style>
-	.sidebar {
-		z-index: 1000;
-	}
-</style> -->

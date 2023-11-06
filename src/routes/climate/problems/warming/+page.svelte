@@ -15,8 +15,9 @@
 		>The Greenland ice sheet is melting. At our current rate of increasing carbon emissions, we are
 		on track for it all to disappear. If that happens, mean sea-level (MSL) will rise by about <TT
 			tt={['<b>7m</b>', '23 feet']}
-		/>.</span
+		/> (due to the Greenland ice sheet alone).</span
 	>
+	<!-- <img src="/images/g78.jpg" alt="first ascent of a nunatak in eastern Greenland, 1969" /> -->
 	<ul>
 		<li>
 			According to modelling and to historical data, there is a threshold beyond which
@@ -25,7 +26,7 @@
 			preindustrial temperatures. <FN
 				{footnotes}
 				desc="'Overshooting the critical threshold for the Greenland ice sheet.'"
-				href="https://www.nature.com/articles/s41586-023-06503-9.epdf?sharing_token=uM50_RcUz4zkGFgBOXzH8NRgN0jAjWel9jnR3ZoTv0PT1p_hQwiMqEqpCXKZLjNJlG-pthmBWCBxpbig2NOfwIeHOplJDOSnt9Vt9OHSYM9wOSg80by7OHvNJIOKbz9JZdMjyxmZ1ticBjCJj8jaT7rduXaM4ajLaxus0ykIO1Y%3D"
+				url="https://www.nature.com/articles/s41586-023-06503-9.epdf?sharing_token=uM50_RcUz4zkGFgBOXzH8NRgN0jAjWel9jnR3ZoTv0PT1p_hQwiMqEqpCXKZLjNJlG-pthmBWCBxpbig2NOfwIeHOplJDOSnt9Vt9OHSYM9wOSg80by7OHvNJIOKbz9JZdMjyxmZ1ticBjCJj8jaT7rduXaM4ajLaxus0ykIO1Y%3D"
 			/>
 		</li>
 		<li>
@@ -38,32 +39,20 @@
 			/> above preindustrial temperatures, melting would slow and eventually stop. But by then MSL will
 			have risen several metres.
 		</li>
+		<li>
+			If GMT rises enough for the Greenland ice sheet to melt, then we shall have to contend with
+			the extra sea-level rise (SLR) due to melting occurring in Antarctica.
+		</li>
 
 		<li>
 			Greenland's ice sheet produces 1 billion (1x10<sup>9</sup>) tonnes of 'rock flour' each year
-			which can be utilised for carbon capture. <FN
+			which could be utilised for (limited) carbon capture. <FN
 				{footnotes}
-				href="/climate/solutions/ccs/dac"
-				desc="Local redirect within this site:"
+				url="https://www.numbers-matter.org/climate/solutions/ccs/dac"
+				desc="A page within this site:"
 			/>
 		</li>
 	</ul>
-	<div class="container">
-		<div class="footnotes">
-			{#if footnotes.length === 1}
-				<h1>Reference:</h1>
-			{:else if footnotes.length > 1}
-				<h1>References:</h1>
-			{/if}
-
-			{#each footnotes as note, i}
-				<div class="footnote">
-					[{i + 1}] {note[0]}
-					<a href={note[1]}>{note[2]}</a>
-				</div>
-			{/each}
-		</div>
-	</div>
 </Entry>
 
 <style lang="postcss">

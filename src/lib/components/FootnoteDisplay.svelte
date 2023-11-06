@@ -21,7 +21,7 @@
 
 <style lang="postcss">
 	.container {
-		width: 25em;
+		width: 27em;
 		margin: 0 auto;
 		display: flex;
 		justify-content: center;
@@ -32,7 +32,6 @@
 			flex-direction: column;
 			align-self: center;
 			align-items: flex-start;
-			/* font-size: 80%; */
 			@apply text-tertiary-500;
 			align-items: flex-start;
 
@@ -41,12 +40,13 @@
 				text-decoration: underline;
 				margin-bottom: 0.25em;
 				align-self: center;
+				font-weight: bold;
 			}
 
 			.footnote {
-				font-size: 85%;
-				padding-left: 2.5em;
-				text-indent: -2.5em;
+				font-size: 80%;
+				padding-left: 1.375em;
+				text-indent: -1.375em;
 
 				.desc {
 					color: black;

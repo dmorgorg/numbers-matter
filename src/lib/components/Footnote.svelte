@@ -2,7 +2,7 @@
 	export let footnotes;
 	export let desc;
 	export let url: string;
-	export let chars = 50;
+	export let chars = 60;
 	let truncated = url.slice(0, chars);
 	if (truncated.length < url.length) {
 		truncated += ' . . .';
