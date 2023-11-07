@@ -11,6 +11,9 @@
 			<NavLink href="/" title="Home" {activeBackground} />
 		</li>
 		<li>
+			<NavLink href="/about" title="About" {activeBackground} />
+		</li>
+		<li>
 			<div class="font-medium underline">
 				<NavLink href="/climate" title="Climate" {activeBackground} />
 			</div>

@@ -93,7 +93,7 @@
 	@media screen and (max-width: 480px) {
 		.trigger .tip-text.x-wide {
 			max-width: 50ch;
-			left: 35%;
+			left: 40%;
 		}
 	}
 </style>

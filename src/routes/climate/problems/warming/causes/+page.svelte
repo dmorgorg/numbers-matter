@@ -88,11 +88,11 @@
 			/>. Yet worldwide greenhouse gas emissions dropped by less than 4% (2.00/54.6=3.66%). We can
 			not make a serious dent in our emissions, let alone get to net zero, on the back of reduced
 			air travel. Air travel (domestic and international, passenger and freight) contributes 1.9% of
-			greenhouse gas emissions (2016 data), or 2.5% of CO<sub>2</sub> emissions <FN
+			greenhouse gas emissions (2016 data), or 2.5% of CO<sub>2</sub> emissions (2018 data) <FN
 				{footnotes}
 				desc="'Our World in Data.'"
 				url="https://ourworldindata.org/co2-emissions-from-aviation"
-			/>. This is not to suggest that reduced air travel will not help ameliorate global warming.
+			/>. This is not to suggest that reduced air travel is not an important part of the solution.
 		</li>
 	</ul>
 </Entry>
