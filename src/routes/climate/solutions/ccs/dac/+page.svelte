@@ -71,14 +71,69 @@
 			weathering (ERW).
 		</li>
 		<li>
-			In tests held in Denmark in 2019, <TT
-				tt={['<b>10</b> and <b>50 tonnes/ha</b>', '4.1 and 20.3 ton/ac']}
-			/> of
-			<TT tt={['GRF', 'Glacial rock flour']} /> were added to crops of maize and potato. Maize yields
-			increased by 24% and potato yields by 19% for the year of application of GRF. No yield improvements
-			were noted in subsequent years although carbon sequestration continued.
+			In tests held in Denmark in 2019, <TT tt={['10 and 50 tonnes/ha', '4.1 and 20.3 ton/ac']} /> of
+			GRF were applied to fields planted with crops of maize and potato. Maize yields increased by 24%
+			and potato yields by 19% for the year of application of GRF. No yield improvements were noted in
+			subsequent years although carbon sequestration continued. <FN
+				{footnotes}
+				desc="Greenlandic glacial rock flour improves crop yield in organic agricultural production"
+				url="https://link.springer.com/article/10.1007/s10705-023-10274-0"
+			/>
 		</li>
-		<!-- <li>( ͠° ͟ʖ ͡° )</li> -->
+		<!-- <li>(° ͟ʖ°)</li> -->
+		<!-- <li>
+			Tests in less fertile soil in Ghana have seen greater yield increases but transportation of GRF
+			for long distances becomes more of a factor.
+		</li> -->
+	</ul>
+</Entry>
+
+<Entry {footnotes}>
+	<span slot="num"><TT tt={['4,000 tonnes', '3900 (long) tons']} /></span>
+	<span slot="lead"
+		>In September, 2021, Climeworks launched the world's first direct air capture plant in
+		Hellisheidi, Iceland. This plant (named Orca) has an annual CO<sub>2</sub> capture of up to <TT
+			tt={['4,000 tonnes', '3900 (long) tons']}
+		/>
+		<FN
+			{footnotes}
+			desc="'From vision to reality: Orca is launched.'<br/>"
+			url="https://climeworks.com/plant-orca"
+		/></span
+	>
+	<ul>
+		<li>
+			The plant uses fans to draw air through filters which collect the CO<sub>2</sub>. When the
+			filter is full, the temperature is raised, releasing concentrated CO<sub>2</sub> which is then
+			captured, mixed with water and injected underground where it turns to rock in a couple of years.
+		</li>
+
+		<li>
+			Iceland has abundant clean geothermal fuel so there is no CO<sub>2</sub> associated with powering
+			and heating the plant.
+		</li>
+		<li>
+			The plant cost between $10 million and $15 million to build and captures the emissions of
+			approximately 250 US residents. Individuals can purchase carbon offsets for around $1200/ton.
+			Bulk purchases are closer to $600/ton. <FN
+				{footnotes}
+				desc="'World’s Largest Carbon-Sucking Plant Starts Making Tiny Dent in Emissions'<br/>"
+				url="https://www.bloomberg.com/news/features/2021-09-08/inside-the-world-s-largest-direct-carbon-capture-plant"
+			/>
+		</li>
+		<li>
+			Global CO<sub>2</sub> emissions for 2022 were <TT
+				tt={['37.1bn tonnes', '36.5 (long) tons']}
+			/>
+			<FN
+				{footnotes}
+				desc="'Global CO2 emissions from fossil fuels'<br/>"
+				url="https://ourworldindata.org/co2-emissions#global-co2-emissions-from-fossil-fuels-global-co2-emissions-from-fossil-fuels"
+			/> That works out to be <TT tt={['1180 tonnes/min', '1160 (long) tons/min']} /> (37.1x10<sup
+				>9</sup
+			>/365/24/60/60/60). Each year, the Orca plant will remove slightly less than 3.5 minutes worth
+			of current CO<sub>2</sub> emissions.
+		</li>
 	</ul>
 </Entry>
 

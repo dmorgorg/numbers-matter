@@ -51,6 +51,30 @@
 		</dd>
 	</dl>
 	<dl>
+		<dt>GHG</dt>
+		<dd>
+			<TT
+				tt={[
+					'Greenhouse Gases',
+					'In addition to CO<sub>2</sub>, GHG include methane and nitrous oxide. There are also fluorinated gases, in smaller quantities, but with high global warming potential (GWP) '
+				]}
+				maxWidth="medium"
+			/>
+		</dd>
+	</dl>
+	<dl>
+		<dt>GWP</dt>
+		<dd>
+			<TT
+				tt={[
+					'Global Warming Potential',
+					'GWP measures the global warming impact of different gases, relative to CO<sub>2</sub>. CO<sub>2</sub> has a GWP of 1, methane of 27-30 and nitrous oxide of 273.'
+				]}
+				maxWidth="medium"
+			/>
+		</dd>
+	</dl>
+	<dl>
 		<dt>NZE</dt>
 		<dd>Net Zero Emissions</dd>
 	</dl>
