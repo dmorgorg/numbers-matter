@@ -18,7 +18,7 @@
 	most industrial processes cannot be shut down when the sun sets or the wind doesn't blow. Also,
 	heavy plant must often run continuously for economic reasons due to the large investments
 	involved. The intermittency, or variability, of renewable power sources such as wind and solar
-	make industry a big challenge to decarbonizing industry.
+	make decarbonizing industry a big challenge.
 </Entry>
 
 <Entry {footnotes}>
