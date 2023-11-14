@@ -62,18 +62,18 @@
 </Entry>
 
 <Entry {footnotes}>
-	<span slot="num"><TT tt={['1800<sup>o</sup>C', '3300<sup>o</sup>F']} /></span>
+	<span slot="num"><TT tt={['2000<sup>o</sup>C', '3600<sup>o</sup>F']} /></span>
 	<span slot="lead"
 		>A thermal battery developed by Antora Energy<FN
 			{footnotes}
 			desc="Antora Energy"
 			url="https://antoraenergy.com/"
-		/> stores heat up to a temperature of <TT tt={['1800<sup>o</sup>C', '3300<sup>o</sup>F']} /> and
-		can be used for heat-intensive production such as steel or concrete.
+		/> stores heat over a temperature of <TT tt={['2000<sup>o</sup>C', '3600<sup>o</sup>F']} /> and can
+		be used for heat-intensive production such as steel or concrete.
 	</span>
 	<ul>
 		<li>
-			<strong>This is really cool!</strong> Listen to the podcast! <FN
+			<strong>This is really cool tech!</strong> Listen to the podcast! <FN
 				{footnotes}
 				desc="'A super-battery aimed at decarbonizing industry'"
 				url="https://transcripts.volts.wtf/a-super-battery-aimed-at-decarbonizing-industry"
