@@ -62,7 +62,7 @@
 		</li>
 
 		<li>
-			Almost ertainly, India's emissions will grow at a faster rate than ours in the prosperous
+			Almost certainly, India's emissions will grow at a faster rate than ours in the prosperous
 			'West.' But we are responsible for causing most of the global warming problem, filling the
 			atmosphere with greenhouse gases; who are we now to say, from our comfortable homes with our
 			multiple vehicles, that the poor in India don't deserve electric lights and refrigerators?
@@ -93,6 +93,38 @@
 				desc="'Our World in Data.'"
 				url="https://ourworldindata.org/co2-emissions-from-aviation"
 			/>. This is not to suggest that reduced air travel is not an important part of the solution.
+		</li>
+	</ul>
+</Entry>
+<Entry bind:footnotes>
+	<span slot="num">11%</span>
+	<span slot="lead"
+		>In 2018, building materials (especially steel, brick, and steel) were responsible for 11% of
+		global greenhouse gas emissions.<FN
+			{footnotes}
+			desc="'Global greenhouse gas emissions from residential and commercial building materials and mitigation strategies to 2060'"
+			url="https://www.nature.com/articles/s41467-021-26212-z"
+		/>.</span
+	>
+	<ul>
+		<li>
+			Demand for new buildings is expected to rise rapidly, driven by increasing populations, and
+			wealth in Africa and Asia and by demand for upgrades of urban housing stock.
+		</li>
+		<li>
+			Building materials accounted for more than 50% of concrete production and 40% of steel
+			production.
+		</li>
+		<li>
+			The demand for increased building materials can be mitigated somewhat by using materials with
+			less environmental impact, such as increased use of wood. Cross-laminated timber (CLT) shows
+			promise, providing the strength of concrete for one-fifth the weight. <FN
+				{footnotes}
+				desc="'5 Benefits of Building with Cross-Laminated Timber'"
+				url="https://cnr.ncsu.edu/news/2022/08/5-benefits-cross-laminated-timber/"
+			/>. The use of wood locks in the carbon content for the life of the building. Despite advances
+			in building technology, widespread use of less efficient building practices are still widely
+			used, imposing a challenge in meeting global climate targets for GHG emissions.
 		</li>
 	</ul>
 </Entry>

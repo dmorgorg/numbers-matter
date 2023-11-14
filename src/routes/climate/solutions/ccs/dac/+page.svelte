@@ -142,8 +142,9 @@
 		list-style-type: disc;
 		margin-top: 1em;
 		margin-left: 2em;
-	}
-	li {
-		margin-bottom: 0.5em;
+
+		li {
+			margin-bottom: 0.5em;
+		}
 	}
 </style>

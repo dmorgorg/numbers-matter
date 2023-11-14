@@ -62,21 +62,21 @@
 								<li class="font-normal">
 									<NavLink
 										href="/climate/solutions/electricity/generation"
-										title="Generation"
+										title="<s>Generation</s>"
 										{activeBackground}
 									/>
 									<ul class="subsubsection">
 										<li class="font-normal">
 											<NavLink
 												href="/climate/solutions/electricity/generation/wind"
-												title="Wind"
+												title="<s>Wind</s>"
 												{activeBackground}
 											/>
 										</li>
 										<li class="font-normal">
 											<NavLink
 												href="/climate/solutions/electricity/generation/solar"
-												title="Solar"
+												title="<s>Solar</s>"
 												{activeBackground}
 											/>
 										</li>
@@ -99,18 +99,10 @@
 							/>
 						</li>
 						<li>
-							<NavLink
-								href="/climate/solutions/housing"
-								title="<s>Housing</s>"
-								{activeBackground}
-							/>
+							<NavLink href="/climate/solutions/housing" title="Housing" {activeBackground} />
 						</li>
 						<li>
-							<NavLink
-								href="/climate/solutions/industry"
-								title="<s>Industry</s>"
-								{activeBackground}
-							/>
+							<NavLink href="/climate/solutions/industry" title="Industry" {activeBackground} />
 						</li>
 						<li>
 							<NavLink2 href="/climate/solutions/ccs" {activeBackground}
