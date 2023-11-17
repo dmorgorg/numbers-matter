@@ -9,7 +9,7 @@
 
 <PageHeader>Housing Solutions</PageHeader>
 
-<Entry bind:footnotes>
+<Entry bind:footnotes id="40%">
 	<span slot="num">40%</span>
 	<span slot="lead"
 		>Life-cycle assessment (LCA) studies performed in the last decade on the use of cross-laminated
@@ -27,8 +27,8 @@
 		</li>
 		<li>
 			CLT stores carbon during its service life. The panels can then be reused or recycled. (Being a
-			relatively new technology, ClT buildings are still within their service life so how much reuse or
-			recycling will be practicable is yet unknown.)
+			relatively new technology, ClT buildings are still within their service life so how much reuse
+			or recycling will be practicable is yet unknown.)
 		</li>
 		<li>
 			CLT has been associated with a 30% reduction in construction time <FN

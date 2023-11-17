@@ -55,7 +55,7 @@
 						<li>
 							<NavLink
 								href="/climate/solutions/electricity"
-								title="Electricity"
+								title="<s>Electricity</s>"
 								{activeBackground}
 							/>
 							<ul class="subsection">
@@ -85,7 +85,7 @@
 								<li class="font-normal">
 									<NavLink
 										href="/climate/solutions/electricity/storage"
-										title="Storage"
+										title="<s>Storage</s>"
 										{activeBackground}
 									/>
 								</li>
@@ -129,7 +129,10 @@
 					</ul>
 				</li>
 				<li class="font-medium">
-					<NavLink href="/climate/acronyms" title="Acronyms Explained" {activeBackground} />
+					<NavLink href="/climate/acronyms" title="Acronyms" {activeBackground} />
+				</li>
+				<li class="font-medium">
+					<NavLink href="/climate/pick-a-value" title="Pick a value..." {activeBackground} />
 				</li>
 			</ul>
 		</li>

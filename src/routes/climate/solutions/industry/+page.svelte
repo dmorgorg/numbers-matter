@@ -21,7 +21,7 @@
 	make decarbonizing industry a big challenge.
 </Entry>
 
-<Entry {footnotes}>
+<Entry {footnotes} id="20%">
 	<span slot="num">1/5</span>
 	<span slot="lead"
 		>Industrial heat makes up one-fifth of global energy consumption, mostly originating from fossil
@@ -61,7 +61,7 @@
 	</ul>
 </Entry>
 
-<Entry {footnotes}>
+<Entry {footnotes} id="2000C">
 	<span slot="num"><TT tt={['2000<sup>o</sup>C', '3600<sup>o</sup>F']} /></span>
 	<span slot="lead"
 		>A thermal battery developed by Antora Energy<FN

@@ -2,6 +2,7 @@
 	import FootnoteDisplay from '$lib/components/FootnoteDisplay.svelte';
 	export let footnotes: Array<any>; // to enlarge font
 	export let headless: boolean = false;
+	export let id: string = '';
 	let open: boolean = false;
 	$: blank = false;
 
@@ -22,7 +23,7 @@
 	}
 </script>
 
-<div class="relative pb-2 pt-2">
+<div {id} class="relative pb-2 pt-2">
 	<button class="entry-toggle-button bg-tertiary-500 absolute -top-1 -right-2" on:click={toggle}>
 		{#if !open}
 			<b>&plus;</b>

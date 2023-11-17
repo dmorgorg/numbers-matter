@@ -40,6 +40,19 @@
 		<dd>Direct Air Capture</dd>
 	</dl>
 	<dl>
+		<dt>DTR</dt>
+		<dd>
+			<TT
+				tt={[
+					'Diurnal Temperature Range',
+					'The temperature range between daytime highs and night-time lows.'
+				]}
+				maxWidth="x-wide"
+			/>
+		</dd>
+	</dl>
+
+	<dl>
 		<dt>ERW</dt>
 		<dd>
 			<TT
@@ -92,6 +105,10 @@
 		</dd>
 	</dl>
 	<dl>
+		<dt>IPCC</dt>
+		<dd>Intergovernmental Panel on Climate Change</dd>
+	</dl>
+	<dl>
 		<dt>LCA</dt>
 		<dd>Life-cycle Assessment</dd>
 	</dl>
@@ -102,6 +119,10 @@
 	<dl>
 		<dt>REC</dt>
 		<dd>Renewable Energy Credits/Certificates</dd>
+	</dl>
+	<dl>
+		<dt>SLCF</dt>
+		<dd>Short-lived Climate Forcers</dd>
 	</dl>
 	<dl>
 		<dt>SLR</dt>

@@ -9,11 +9,12 @@
 
 <PageHeader>Causes of Global Warming</PageHeader>
 
-<Entry bind:footnotes>
+<Entry bind:footnotes id="54.6bn">
 	<span slot="num"><TT tt={['54.6bn tonnes', '53.7bn (long) tons']} /></span>
 	<span slot="lead"
 		>Greenhouse gas emissions for 2021 are <TT tt={['54.6bn tonnes', '53.7bn (long) tons']} />, up
-		more than thirteen-fold from <TT tt={['4.0bn tonnes', '3.94bn (long) tons']} /> in 1850 <FN
+		more than thirteen-fold from <TT tt={['4.0bn tonnes', '3.94bn (long) tons']} maxWidth="wide" /> in
+		1850 <FN
 			{footnotes}
 			desc="'Greenhouse gas emissions, 2021. Our World in Data.'"
 			url="https://ourworldindata.org/greenhouse-gas-emissions"
@@ -69,7 +70,7 @@
 		</li>
 	</ul>
 </Entry>
-<Entry bind:footnotes>
+<Entry bind:footnotes id="2bn">
 	<span slot="num"><TT tt={['2.00bn tonnes', '1.97bn (long) tons']} /></span>
 	<span slot="lead"
 		>Greenhouse gas emissions dipped by a mere <TT tt={['2.00bn tonnes', '1.97bn (long) tons']} /> while
@@ -92,11 +93,14 @@
 				{footnotes}
 				desc="'Our World in Data.'"
 				url="https://ourworldindata.org/co2-emissions-from-aviation"
-			/>. This is not to suggest that reduced air travel is not an important part of the solution.
+			/>.
+		</li>
+		<li>
+			It is widely accepted that aviation has a considerable warming effect over and above the
 		</li>
 	</ul>
 </Entry>
-<Entry bind:footnotes>
+<Entry bind:footnotes id="11%">
 	<span slot="num">11%</span>
 	<span slot="lead"
 		>In 2018, building materials (especially steel, brick, and steel) were responsible for 11% of
@@ -125,6 +129,47 @@
 			/>. The use of wood locks in the carbon content for the life of the building. Despite advances
 			in building technology, widespread use of less efficient building practices are still widely
 			used, imposing a challenge in meeting global climate targets for GHG emissions.
+		</li>
+	</ul>
+</Entry>
+<Entry bind:footnotes id="57%">
+	<span slot="num">57%</span>
+	<span slot="lead"
+		>Clouds created by<TT
+			tt={[
+				'contrails',
+				'Contrails are water <b>con</b>densation <b>trails</b> that are often visible as linear clouds behind airplanes. They are caused by water vapour in the air condensing around soot and other particles emitted from the jet engines in cold air (below about -40<sup>o</sup>C/-40<sup>o</sup>F). Under the right conditions, contrails can be hundreds of kilometres in length and exist for several hours.'
+			]}
+			maxWidth="x-wide"
+		/> account for roughly 57% of aviation's global warming impact <FN
+			{footnotes}
+			desc="'Transport'"
+			url="https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter10.pdf/"
+		/>.</span
+	>
+	<ul>
+		<li>
+			Contrails that form cirrus clouds are not long-lived, in contrast to the CO<sub>2</sub> emissions
+			from aviation. Night-time contrails add to global warming by trapping warmth that would otherwise
+			escape. Daytime contrails can actually reduce warming by reflecting some of the sun's radiation
+			that would otherwise reach the earth's surface.
+		</li>
+		<li>
+			Aviation was grounded in the US for three days following the terrorist attacks on the World
+			Trade Center on the 9th November, 2001, and the Pentagon. The diurnal temperature range (DTR)
+			increased by <TT tt={['1<sup>o</sup>C', '1.8<sup>o</sup>F']} /> over the days before and the days
+			after the grounding. It has been argued that the absence of contrails was responsible for the warmer
+			days and cooler nights but it has also been argued that the change in DTR was not significant,
+			and not out of line with other measured variability.
+		</li>
+		<li>
+			When short-lived climate forcers (SLCF) are considered (contrails, nitrous oxide, soot, water
+			vapour and black carbon), they amount to two-thirds of aviation's climate impact. <FN
+				{footnotes}
+				desc="'Airline contrails warm the planet twice as much as CO2, EU study finds'"
+				url="https://www.transportenvironment.org/discover/airline-contrails-warm-planet-twice-much-co2-eu-study-finds/"
+			/> That is, these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>.
+			Aviation warms the planet three times more than the emitted CO<sub>2</sub> would indicate.
 		</li>
 	</ul>
 </Entry>

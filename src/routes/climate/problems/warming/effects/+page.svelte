@@ -9,7 +9,7 @@
 
 <PageHeader>Effects of Global Warming</PageHeader>
 
-<Entry bind:footnotes>
+<Entry bind:footnotes id="7m">
 	<span slot="num"><TT tt={['7m', '23 feet']} /></span>
 	<span slot="lead"
 		>The Greenland ice sheet is melting. At our current rate of increasing carbon emissions, we are

@@ -14,7 +14,7 @@
 	extracting carbon previously emitted into the atmosphere by industrial processes, forest fires, etc...
 </Entry>
 
-<Entry {footnotes}>
+<Entry {footnotes} id="1.5C">
 	<span slot="num"><TT tt={['1.5<sup>o</sup>C', '2.7<sup>o</sup>F']} /></span>
 	<span slot="lead"
 		>In order to limit global warming to<TT tt={['<b>1.5<sup>o</sup>C</b>', '2.7<sup>o</sup>F']} /> above
@@ -45,7 +45,7 @@
 	</ul>
 </Entry>
 
-<Entry {footnotes}>
+<Entry {footnotes} id="728">
 	<span slot="num"><TT tt={['728 kg/ha', '650 lb/ac']} /></span>
 	<span slot="lead"
 		>Glacial rock flour (GRF) is produced (about one billion tonnes annually) by the glacial erosion
@@ -88,7 +88,7 @@
 	</ul>
 </Entry>
 
-<Entry {footnotes}>
+<Entry {footnotes} id="4000C">
 	<span slot="num"><TT tt={['4,000 tonnes', '3900 (long) tons']} /></span>
 	<span slot="lead"
 		>In September, 2021, Climeworks launched the world's first direct air capture plant in
