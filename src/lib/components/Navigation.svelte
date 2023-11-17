@@ -97,6 +97,15 @@
 								title="<s>Transportation</s>"
 								{activeBackground}
 							/>
+							<ul>
+								<li>
+									<NavLink
+										href="/climate/solutions/transportation/aviation"
+										title="Aviation"
+										{activeBackground}
+									/>
+								</li>
+							</ul>
 						</li>
 						<li>
 							<NavLink href="/climate/solutions/housing" title="Housing" {activeBackground} />
@@ -105,14 +114,18 @@
 							<NavLink href="/climate/solutions/industry" title="Industry" {activeBackground} />
 						</li>
 						<li>
-							<NavLink2 href="/climate/solutions/ccs" {activeBackground}
-								><TT tt={['CCS', 'Carbon Capture and Storage']} /></NavLink2
-							>
+							<NavLink
+								href="/climate/solutions/ccs"
+								title="Carbon Capture and Storage"
+								{activeBackground}
+							/>
 							<ul>
 								<li class="font-normal">
-									<NavLink2 href="/climate/solutions/ccs/dac" {activeBackground}
-										><TT tt={['DAC', 'Direct Air Capture']} />
-									</NavLink2>
+									<NavLink
+										href="/climate/solutions/ccs/dac"
+										title="Direct Air Capture"
+										{activeBackground}
+									/>
 								</li>
 							</ul>
 							<!-- </li> -->

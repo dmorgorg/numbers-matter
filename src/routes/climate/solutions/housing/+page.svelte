@@ -49,12 +49,12 @@
 	li {
 		margin-bottom: 0.5em;
 	}
-	dl {
+	/* dl {
 		display: flex;
 		flex-flow: row wrap;
 		margin-top: 0.375em;
-	}
-	dt {
+	} */
+	/* dt {
 		flex-basis: 35%;
 		padding: 0.05em 0.5em;
 
@@ -69,5 +69,5 @@
 	}
 	.bold {
 		font-weight: bold;
-	}
+	} */
 </style>

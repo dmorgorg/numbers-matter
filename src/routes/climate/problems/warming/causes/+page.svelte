@@ -96,7 +96,12 @@
 			/>.
 		</li>
 		<li>
-			It is widely accepted that aviation has a considerable warming effect over and above the
+			It is widely accepted that aviation has a considerable warming effect over and above that due
+			to CO<sub>2</sub> alone. Three times as much <FN
+				{footnotes}
+				desc="this site..."
+				url="https://numbers-matter.org/climate/problems/warming/causes#57%"
+			/> - so airline travel may not be as benign as it appears.
 		</li>
 	</ul>
 </Entry>
@@ -160,15 +165,29 @@
 			increased by <TT tt={['1<sup>o</sup>C', '1.8<sup>o</sup>F']} /> over the days before and the days
 			after the grounding. It has been argued that the absence of contrails was responsible for the warmer
 			days and cooler nights but it has also been argued that the change in DTR was not significant,
-			and not out of line with other measured variability.
+			and not out of line with other measured variability <FN
+				{footnotes}
+				desc="'9/11 research challenged: contrails aren't turning up the heat'"
+				url="https://www.bbc.co.uk/blogs/climatechange/2009/05/911_contrails_study_challenged.html"
+			/>
+			<FN
+				{footnotes}
+				desc="'Contrails reduce daily temperature range'"
+				url="https://www.nature.com/articles/418601a?error=cookies_not_supported&code=594c8287-a7a4-46c8-9583-f5cdd10d2dbc"
+			/>.
 		</li>
 		<li>
 			When short-lived climate forcers (SLCF) are considered (contrails, nitrous oxide, soot, water
-			vapour and black carbon), they amount to two-thirds of aviation's climate impact. <FN
+			vapour and black carbon), they amount to two-thirds of aviation's climate impact <FN
 				{footnotes}
 				desc="'Airline contrails warm the planet twice as much as CO2, EU study finds'"
 				url="https://www.transportenvironment.org/discover/airline-contrails-warm-planet-twice-much-co2-eu-study-finds/"
-			/> That is, these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>.
+			/>. That is, these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>.
+			vapour and black carbon), they amount to two-thirds of aviation's climate impact <FN
+				{footnotes}
+				desc="'Airline contrails warm the planet twice as much as CO2, EU study finds'"
+				url="https://www.transportenvironment.org/discover/airline-contrails-warm-planet-twice-much-co2-eu-study-finds/"
+			/>. That is, these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>.
 			Aviation warms the planet three times more than the emitted CO<sub>2</sub> would indicate.
 		</li>
 	</ul>

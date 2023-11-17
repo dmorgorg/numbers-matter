@@ -109,6 +109,10 @@
 		<dd>Intergovernmental Panel on Climate Change</dd>
 	</dl>
 	<dl>
+		<dt>ISS</dt>
+		<dd>Ice-supersaturated</dd>
+	</dl>
+	<dl>
 		<dt>LCA</dt>
 		<dd>Life-cycle Assessment</dd>
 	</dl>
