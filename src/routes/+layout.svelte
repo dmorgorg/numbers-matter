@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.postcss';
 	import '$lib/styles/global.scss';
-	import { fade } from 'svelte/transition';
+	// import { fade } from 'svelte/transition';
 	import { AppShell, AppBar, storePopup } from '@skeletonlabs/skeleton';
 	import {
 		Drawer,
@@ -15,9 +15,9 @@
 	$: slotSidebarLeft = $page.url.pathname === '/' ? 'w-0' : 'lg:w-auto bg-tertiary-600 pr-4';
 
 	// Floating UI for Popups
-	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
+	// import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { page } from '$app/stores';
-	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
+	// storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
 	initializeStores();
 	const drawerStore = getDrawerStore();

@@ -7,7 +7,7 @@
 <p>
 	I sometimes read books containing data. Books about climate change with lots of numbers, for
 	example. Later, I frequently find myself unable to remember those numbers. I may even misquote
-	them. "Better write 'em down," I thought.
+	them. Better write them down!
 </p>
 
 <p>
