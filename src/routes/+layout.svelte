@@ -45,7 +45,7 @@
 	</div>
 </Drawer>
 
-<AppShell slotSidebarLeft="w-0 lg:w-64 bg-tertiary-600" class="bg-white">
+<AppShell slotSidebarLeft="w-0 lg:w-1/3 bg-tertiary-600" class="bg-white">
 	<svelte:fragment slot="header">
 		<AppBar background="bg-tertiary-600 z-0">
 			<svelte:fragment slot="lead">
