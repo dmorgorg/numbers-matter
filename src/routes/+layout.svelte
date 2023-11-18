@@ -22,7 +22,7 @@
 		id: 'left',
 		bgDrawer: 'bg-tertiary-700',
 		bgBackdrop: 'bg-surface-200/80',
-		width: 'w-1/2',
+		width: 'w-3/4',
 		// padding: 'py-2 pl-2',
 		border: 'rounded-none'
 	};

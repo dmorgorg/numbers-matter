@@ -5,7 +5,7 @@
 	let activeBackground = 'bg-tertiary-400';
 </script>
 
-<nav class="py-10 nav-component">
+<nav class="py-20 nav-component">
 	<ul>
 		<li>
 			<NavLink href="/" title="Home" {activeBackground} />
@@ -18,7 +18,7 @@
 				<NavLink href="/climate" title="Climate" {activeBackground} />
 			</div>
 			<ul>
-				<li class="font-medium">
+				<li>
 					<NavLink href="/climate/problems" title="Problems:" {activeBackground} />
 					<ul>
 						<li>
@@ -31,14 +31,14 @@
 						<li>
 							<NavLink href="/climate/problems/warming" title="<s>Warming</s>" {activeBackground} />
 							<ul>
-								<li class="font-normal">
+								<li>
 									<NavLink
 										href="/climate/problems/warming/causes"
 										title="Causes"
 										{activeBackground}
 									/>
 								</li>
-								<li class="font-normal">
+								<li>
 									<NavLink
 										href="/climate/problems/warming/effects"
 										title="Effects"
@@ -49,7 +49,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="font-medium">
+				<li>
 					<NavLink href="/climate/solutions" title="Solutions:" {activeBackground} />
 					<ul class="section">
 						<li>
@@ -82,7 +82,7 @@
 										</li>
 									</ul>
 								</li>
-								<li class="font-normal">
+								<li>
 									<NavLink
 										href="/climate/solutions/electricity/storage"
 										title="<s>Storage</s>"
@@ -120,7 +120,7 @@
 								{activeBackground}
 							/>
 							<ul>
-								<li class="font-normal">
+								<li>
 									<NavLink
 										href="/climate/solutions/ccs/dac"
 										title="Direct Air Capture (DAC)"
@@ -133,7 +133,7 @@
 					</ul>
 				</li>
 
-				<li class="font-medium">
+				<li>
 					<NavLink href="/climate/misc" title="<s>Miscellaneous</s>" {activeBackground} />
 					<ul>
 						<li>
@@ -141,10 +141,10 @@
 						</li>
 					</ul>
 				</li>
-				<li class="font-medium">
+				<li>
 					<NavLink href="/climate/acronyms" title="Acronyms" {activeBackground} />
 				</li>
-				<li class="font-medium">
+				<li>
 					<NavLink href="/climate/pick-a-value" title="Pick a value..." {activeBackground} />
 				</li>
 			</ul>
@@ -155,7 +155,7 @@
 
 <!-- </div> -->
 
-<style lang="scss">
+<style lang="postcss">
 	ul {
 		list-style: none;
 		padding-left: 1.25rem;
@@ -165,6 +165,10 @@
 		li {
 			margin: 0.125em;
 			margin: 0;
+
+			/* a {
+				@apply text-tertiary-400;
+			} */
 		}
 	}
 	nav {
