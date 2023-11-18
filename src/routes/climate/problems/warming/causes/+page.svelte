@@ -17,6 +17,7 @@
 		1850 <FN
 			{footnotes}
 			desc="'Greenhouse gas emissions, 2021. Our World in Data.'"
+			accessed="12th November, 2023"
 			url="https://ourworldindata.org/greenhouse-gas-emissions"
 		/>.</span
 	>
@@ -77,6 +78,7 @@
 		most of us were confined to our homes in 2020 due to the Covid-19 pandemic <FN
 			{footnotes}
 			desc="'Greenhouse gas emissions, 2021. Our World in Data.'"
+			accessed="13th November, 2023"
 			url="https://ourworldindata.org/greenhouse-gas-emissions"
 		/>.</span
 	>
@@ -85,6 +87,7 @@
 			International air travel dropped by 60% in 2020 due to the pandemic <FN
 				{footnotes}
 				desc="'2020 passenger totals drop 60 per cent...'"
+				accessed="14th November, 2023"
 				url="https://www.icao.int/Newsroom/Pages/2020-passenger-totals-drop-60-percent-as-COVID19-assault-on-international-mobility-continues.aspx"
 			/>. Yet worldwide greenhouse gas emissions dropped by less than 4% (2.00/54.6=3.66%). We can
 			not make a serious dent in our emissions, let alone get to net zero, on the back of reduced
@@ -92,6 +95,7 @@
 			greenhouse gas emissions (2016 data), or 2.5% of CO<sub>2</sub> emissions (2018 data) <FN
 				{footnotes}
 				desc="'Our World in Data.'"
+				accessed="14th November, 2023"
 				url="https://ourworldindata.org/co2-emissions-from-aviation"
 			/>.
 		</li>
@@ -100,6 +104,7 @@
 			to CO<sub>2</sub> alone. Three times as much <FN
 				{footnotes}
 				desc="this site..."
+				accessed="14th November, 2023"
 				url="https://numbers-matter.org/climate/problems/warming/causes#57%"
 			/> - so airline travel may not be as benign as it appears.
 		</li>
@@ -112,6 +117,7 @@
 		global greenhouse gas emissions.<FN
 			{footnotes}
 			desc="'Global greenhouse gas emissions from residential and commercial building materials and mitigation strategies to 2060'"
+			accessed="15th November, 2023"
 			url="https://www.nature.com/articles/s41467-021-26212-z"
 		/>.</span
 	>
@@ -130,6 +136,7 @@
 			promise, providing the strength of concrete for one-fifth the weight. <FN
 				{footnotes}
 				desc="'5 Benefits of Building with Cross-Laminated Timber'"
+				accessed="15th November, 2023"
 				url="https://cnr.ncsu.edu/news/2022/08/5-benefits-cross-laminated-timber/"
 			/>. The use of wood locks in the carbon content for the life of the building. Despite advances
 			in building technology, widespread use of less efficient building practices are still widely
@@ -149,7 +156,8 @@
 		/> account for roughly 57% of aviation's global warming impact <FN
 			{footnotes}
 			desc="'Transport'"
-			url="https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter10.pdf/"
+			accessed="17th November, 2023"
+			url="https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter10.pdf"
 		/>.</span
 	>
 	<ul>
@@ -168,11 +176,13 @@
 			and not out of line with other measured variability <FN
 				{footnotes}
 				desc="'9/11 research challenged: contrails aren't turning up the heat'"
+				accessed="16th November, 2023"
 				url="https://www.bbc.co.uk/blogs/climatechange/2009/05/911_contrails_study_challenged.html"
 			/>
 			<FN
 				{footnotes}
 				desc="'Contrails reduce daily temperature range'"
+				accessed="16th November, 2023"
 				url="https://www.nature.com/articles/418601a?error=cookies_not_supported&code=594c8287-a7a4-46c8-9583-f5cdd10d2dbc"
 			/>.
 		</li>
@@ -181,14 +191,12 @@
 			vapour and black carbon), they amount to two-thirds of aviation's climate impact <FN
 				{footnotes}
 				desc="'Airline contrails warm the planet twice as much as CO2, EU study finds'"
+				accessed="17th November, 2023"
 				url="https://www.transportenvironment.org/discover/airline-contrails-warm-planet-twice-much-co2-eu-study-finds/"
-			/>. That is, these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>.
-			vapour and black carbon), they amount to two-thirds of aviation's climate impact <FN
-				{footnotes}
-				desc="'Airline contrails warm the planet twice as much as CO2, EU study finds'"
-				url="https://www.transportenvironment.org/discover/airline-contrails-warm-planet-twice-much-co2-eu-study-finds/"
-			/>. That is, these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>.
-			Aviation warms the planet three times more than the emitted CO<sub>2</sub> would indicate.
+			/>. That is, these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>,
+			vapour and black carbon), they amount to two-thirds of aviation's climate impact. That is,
+			these SLCFs warm the planet twice as much as does the associated CO<sub>2</sub>. Aviation
+			warms the planet three times more than the emitted CO<sub>2</sub> would indicate.
 		</li>
 	</ul>
 </Entry>

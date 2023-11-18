@@ -116,14 +116,14 @@
 						<li>
 							<NavLink
 								href="/climate/solutions/ccs"
-								title="Carbon Capture and Storage"
+								title="Carbon Capture and Storage (CCS)"
 								{activeBackground}
 							/>
 							<ul>
 								<li class="font-normal">
 									<NavLink
 										href="/climate/solutions/ccs/dac"
-										title="Direct Air Capture"
+										title="Direct Air Capture (DAC)"
 										{activeBackground}
 									/>
 								</li>

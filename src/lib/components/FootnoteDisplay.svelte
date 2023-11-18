@@ -12,8 +12,13 @@
 		{/if}
 		{#each footnotes[entryIndex] as footnote, index}
 			<div class="footnote">
-				<span class="desc">[{index + 1}] {@html footnote[0]}</span>
-				<a href={footnote[1]}>{footnote[2]}</a>
+				<span class="desc"
+					>[{index + 1}] {@html footnote[0]}
+					{#if footnote[2].length > 0}
+						<nobr>(Accessed on {@html footnote[2]})</nobr>
+					{/if}
+				</span>
+				<a href={footnote[1]}>{footnote[3]}</a>
 			</div>
 		{/each}
 	</div>
