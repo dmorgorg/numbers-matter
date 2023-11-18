@@ -25,7 +25,7 @@
 		id: 'left',
 		bgDrawer: 'bg-tertiary-700',
 		bgBackdrop: 'bg-surface-200/80',
-		width: 'w-3/4',
+		width: 'w-auto',
 		// padding: 'py-2 pl-2',
 		border: 'rounded-none'
 	};
@@ -68,20 +68,16 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div
-					class="site-title rounded-full font-bold text-black py-2 px-6 bg-tertiary-300 shadow-lg text-xl"
+					class="site-title rounded-full font-bold text-tertiary-700 py-2 px-6 bg-tertiary-300 shadow-lg text-xl"
 				>
 					numbers-matter
 				</div>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<svelte:fragment slot="sidebarLeft"><div class="sidebar"><Navigation /></div></svelte:fragment>
+	<svelte:fragment slot="sidebarLeft"
+		><div class="sidebar pr-2"><Navigation /></div></svelte:fragment
+	>
 	<!-- page content -->
-	<slot />
+	<div class="p-2"><slot /></div>
 </AppShell>
-
-<style>
-	.hide {
-		display: none;
-	}
-</style>

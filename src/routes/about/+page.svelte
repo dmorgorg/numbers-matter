@@ -40,12 +40,12 @@
 	If you find errors on this site, please mail me at
 	<span class="font-mono">dave&ndash;at&ndash;dmorg.org</span>
 	with the words "Numbers Error!" or equivalent in the subject. Include a link in your mail to a credible
-	publication that refutes my assertion, to help me with any corrections
+	publication that refutes my assertion, to help me with any corrections.
 </p>
 
 <p>
 	This site is primarily for my own personal use and entertainment. But who knows? It might help you
-	resolve a disputed point during lively discussion in the pub on a Tuesday night!
+	resolve a disputed point during lively discussion in the pub on a Tuesday night.
 </p>
 
 <p>

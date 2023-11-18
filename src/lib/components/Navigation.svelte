@@ -5,7 +5,7 @@
 	let activeBackground = 'bg-tertiary-400';
 </script>
 
-<nav class="py-20 nav-component">
+<nav class=" nav-component">
 	<ul>
 		<li>
 			<NavLink href="/" title="Home" {activeBackground} />
@@ -22,11 +22,7 @@
 					<NavLink href="/climate/problems" title="Problems:" {activeBackground} />
 					<ul>
 						<li>
-							<NavLink
-								href="/climate/problems/pollution"
-								title="<s>Pollution</s>"
-								{activeBackground}
-							/>
+							<NavLink href="/climate/problems/pollution" title="Pollution" {activeBackground} />
 						</li>
 						<li>
 							<NavLink href="/climate/problems/warming" title="<s>Warming</s>" {activeBackground} />

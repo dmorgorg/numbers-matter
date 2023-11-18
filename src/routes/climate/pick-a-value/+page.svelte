@@ -19,6 +19,7 @@
 	<a href="/climate/solutions/ccs/dac#728">728 kg/ha</a>
 	<a href="/climate/solutions/industry#2000C">2000<sup>o</sup>C</a>
 	<a href="/climate/solutions/ccs/dac#4000C">4000<sup>o</sup>C</a>
+	<a href="/climate/problems/pollution#8.7mill">8.7 million</a>
 	<a href="/climate/problems/warming/causes#2bn">2bn tonnes</a>
 	<a href="/climate/problems/warming/causes#546bn">54.6bn tonnes</a>
 </section>
