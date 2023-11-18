@@ -26,6 +26,7 @@
 			preindustrial temperatures. <FN
 				{footnotes}
 				desc="'Overshooting the critical threshold for the Greenland ice sheet.'"
+				accessed="9th November, 2023"
 				url="https://www.nature.com/articles/s41586-023-06503-9.epdf?sharing_token=uM50_RcUz4zkGFgBOXzH8NRgN0jAjWel9jnR3ZoTv0PT1p_hQwiMqEqpCXKZLjNJlG-pthmBWCBxpbig2NOfwIeHOplJDOSnt9Vt9OHSYM9wOSg80by7OHvNJIOKbz9JZdMjyxmZ1ticBjCJj8jaT7rduXaM4ajLaxus0ykIO1Y%3D"
 			/>
 		</li>
@@ -48,7 +49,8 @@
 			Greenland's ice sheet produces 1 billion (1x10<sup>9</sup>) tonnes of 'rock flour' each year
 			which could be utilised for (limited) carbon capture. <FN
 				{footnotes}
-				url="https://www.numbers-matter.org/climate/solutions/ccs/dac"
+				accessed="9th November, 2023"
+				url="https://www.numbers-matter.org/climate/solutions/ccs/dac#728"
 				desc="A page within this site:"
 			/>
 		</li>

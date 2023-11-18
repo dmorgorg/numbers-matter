@@ -15,6 +15,7 @@
 	<a href="/climate/solutions/housing#40%">40%</a>
 	<a href="/climate/solutions/transportation/aviation#40%">54%</a>
 	<a href="/climate/problems/warming/causes#57%">57%</a>
+	<a href="/climate/solutions/transportation/aviation#92%">92%</a>
 	<a href="/climate/solutions/ccs/dac#728">728 kg/ha</a>
 	<a href="/climate/solutions/industry#2000C">2000<sup>o</sup>C</a>
 	<a href="/climate/solutions/ccs/dac#4000C">4000<sup>o</sup>C</a>

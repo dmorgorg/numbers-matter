@@ -17,6 +17,7 @@
 		concrete &ndash; show a 40% reduction in carbon footprint.<FN
 			{footnotes}
 			desc="'Cross-laminated timber for building construction: A life-cycle-assessment overview'"
+			accessed="12th November, 2023"
 			url="https://www.sciencedirect.com/science/article/pii/S2352710222004958?via%3Dihub"
 		/></span
 	>
@@ -34,6 +35,7 @@
 			CLT has been associated with a 30% reduction in construction time <FN
 				{footnotes}
 				desc="'A Project Contribution to the Development of Sustainable Multi-Storey Timber Buildings...'"
+				accessed="12th November, 2023"
 				url="https://repositorium.sdum.uminho.pt/handle/1822/26947"
 			/>.
 		</li>
@@ -41,14 +43,14 @@
 </Entry>
 
 <style lang="postcss">
-	ul {
+	/* ul {
 		list-style-type: disc;
 		margin-top: 1em;
 		margin-left: 2em;
 	}
 	li {
 		margin-bottom: 0.5em;
-	}
+	} */
 	/* dl {
 		display: flex;
 		flex-flow: row wrap;

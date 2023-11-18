@@ -9,7 +9,7 @@
 	class:right={justify == 'right'}
 >
 	<div
-		class="page-header rounded-full font-bold text-black py-2 px-6 bg-tertiary-500 shadow-xl my-6 text-xl"
+		class="page-header rounded-full font-bold text-tertiary-50 py-2 px-6 bg-tertiary-500 shadow-xl my-6 text-xl"
 	>
 		<slot />
 	</div>

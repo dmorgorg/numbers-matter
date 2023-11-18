@@ -12,8 +12,11 @@
 
 	import Navigation from '$lib/components/Navigation.svelte';
 
+	$: slotSidebarLeft = $page.url.pathname === '/' ? 'w-0' : 'lg:w-auto bg-tertiary-600 pr-4';
+
 	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
+	import { page } from '$app/stores';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
 	initializeStores();
@@ -45,7 +48,8 @@
 	</div>
 </Drawer>
 
-<AppShell slotSidebarLeft="w-0 lg:w-1/3 bg-tertiary-600" class="bg-white">
+<AppShell {slotSidebarLeft} class="bg-white">
+	<!-- <AppShell slotSidebarLeft="w-0 lg:w-auto bg-tertiary-600 pr-4 pt-0" class="bg-white"> -->
 	<svelte:fragment slot="header">
 		<AppBar background="bg-tertiary-600 z-0">
 			<svelte:fragment slot="lead">
@@ -75,3 +79,9 @@
 	<!-- page content -->
 	<slot />
 </AppShell>
+
+<style>
+	.hide {
+		display: none;
+	}
+</style>

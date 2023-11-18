@@ -18,7 +18,7 @@
 						<nobr>(Accessed on {@html footnote[2]})</nobr>
 					{/if}
 				</span>
-				<a href={footnote[1]}>{footnote[3]}</a>
+				<nobr><a href={footnote[1]}>{footnote[3]}</a></nobr>
 			</div>
 		{/each}
 	</div>
@@ -59,6 +59,10 @@
 
 				a {
 					@apply text-tertiary-500;
+
+					&:hover {
+						text-decoration: underline;
+					}
 				}
 			}
 		}

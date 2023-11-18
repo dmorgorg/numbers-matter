@@ -8,6 +8,10 @@
 
 <div class="container">
 	<dl>
+		<dt>BAU</dt>
+		<dd>Business As Usual</dd>
+	</dl>
+	<dl>
 		<dt>BECCS</dt>
 		<dd>Bioenergy with Carbon Capture and Storage</dd>
 	</dl>
@@ -136,6 +140,10 @@
 		<dt>TPV</dt>
 		<dd>Thermovoltaic Panel</dd>
 	</dl>
+	<dl>
+		<dt>WWS</dt>
+		<dd>Wind-Water-Solar</dd>
+	</dl>
 </div>
 
 <style lang="postcss">
@@ -160,6 +168,7 @@
 		@apply rounded-s-full;
 		/* border-top-left-radius: 0.375em;
 		border-bottom-left-radius: 0.375em; */
+		vertical-align: middle;
 
 		text-align: right;
 		color: black;

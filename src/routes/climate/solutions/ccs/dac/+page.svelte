@@ -23,6 +23,7 @@
 		Carbon dioxide removal (CDR) from the atmosphere will also be necessary.<FN
 			{footnotes}
 			desc="What Transitions could Enable Limiting Global Warming to 1.5°C?"
+			accessed="5th November, 2023"
 			url="https://www.ipcc.ch/sr15/faq/faq-chapter-4/"
 		/>
 	</span>
@@ -54,7 +55,8 @@
 			tt={['<b>728 kg/ha</b>', '650 lb/ac']}
 		/> of CO<sub>2</sub> from the atmosphere over a period of three years.<FN
 			{footnotes}
-			desc="'Quantification of CO2 uptake by enhanced weathering of silicate minerals applied to acidic soils.'<br/>"
+			desc="'Quantification of CO2 uptake by enhanced weathering of silicate minerals applied to acidic soils.'"
+			accessed="8th November, 2023"
 			url="https://www.sciencedirect.com/science/article/pii/S1750583623000427?via%3Dihub#bib0021"
 		/></span
 	>
@@ -77,6 +79,7 @@
 			subsequent years although carbon sequestration continued. <FN
 				{footnotes}
 				desc="Greenlandic glacial rock flour improves crop yield in organic agricultural production"
+				accessed="8th November, 2023"
 				url="https://link.springer.com/article/10.1007/s10705-023-10274-0"
 			/>
 		</li>
@@ -97,7 +100,8 @@
 		/>
 		<FN
 			{footnotes}
-			desc="'From vision to reality: Orca is launched.'<br/>"
+			desc="'From vision to reality: Orca is launched.'"
+			accessed="8th November, 2023"
 			url="https://climeworks.com/plant-orca"
 		/></span
 	>
@@ -117,7 +121,8 @@
 			approximately 250 US residents. Individuals can purchase carbon offsets for around $1200/ton.
 			Bulk purchases are closer to $600/ton. <FN
 				{footnotes}
-				desc="'World’s Largest Carbon-Sucking Plant Starts Making Tiny Dent in Emissions'<br/>"
+				desc="'World’s Largest Carbon-Sucking Plant Starts Making Tiny Dent in Emissions'"
+				accessed="8th November, 2023"
 				url="https://www.bloomberg.com/news/features/2021-09-08/inside-the-world-s-largest-direct-carbon-capture-plant"
 			/>
 		</li>
@@ -127,7 +132,8 @@
 			/>
 			<FN
 				{footnotes}
-				desc="'Global CO2 emissions from fossil fuels'<br/>"
+				desc="'Global CO2 emissions from fossil fuels'"
+				accessed="8th November, 2023"
 				url="https://ourworldindata.org/co2-emissions#global-co2-emissions-from-fossil-fuels-global-co2-emissions-from-fossil-fuels"
 			/> That works out to be <TT tt={['1180 tonnes/min', '1160 (long) tons/min']} /> (37.1x10<sup
 				>9</sup
@@ -137,7 +143,7 @@
 	</ul>
 </Entry>
 
-<style lang="postcss">
+<!-- <style lang="postcss">
 	ul {
 		list-style-type: disc;
 		margin-top: 1em;
@@ -147,4 +153,4 @@
 			margin-bottom: 0.5em;
 		}
 	}
-</style>
+</style> -->

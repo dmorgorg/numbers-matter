@@ -13,6 +13,7 @@
 	In the US, industry is responsible for <strong>28%</strong> of CO<sub>2</sub> emissions <FN
 		{footnotes}
 		desc="'U.S. CO<sub>2</sub> emissions from energy consumption by source and sector, 2022'"
+		accessed="13th November, 2023"
 		url="https://www.eia.gov/energyexplained/energy-and-the-environment/where-greenhouse-gases-come-from.php"
 	/>. It relies heavily on natural gas, petroleum and electricity generated using fossil fuels. But
 	most industrial processes cannot be shut down when the sun sets or the wind doesn't blow. Also,
@@ -22,12 +23,13 @@
 </Entry>
 
 <Entry {footnotes} id="20%">
-	<span slot="num">1/5</span>
+	<span slot="num">20%</span>
 	<span slot="lead"
 		>Industrial heat makes up one-fifth of global energy consumption, mostly originating from fossil
 		fuel combustion<FN
 			{footnotes}
 			desc="'Clean and efficient heat for industry'"
+			accessed="13th November, 2023"
 			url="https://www.iea.org/commentaries/clean-and-efficient-heat-for-industry"
 		/>. Due to increasing demand, the production of industrial heat is expected to account for
 		one-quarter of global emissions by 2040.
@@ -50,6 +52,7 @@
 				{footnotes}
 				desc="'Thermal Process Intensification: Transforming the Way
             Industry Uses Thermal Process Energy'"
+				accessed="13th November, 2023"
 				url="https://www.energy.gov/sites/default/files/2022-05/TPI%20Workshop%20Report_AMO.pdf"
 			/>. The advent of thermal batteries is also an exciting development that shows much promise.
 		</li>
@@ -67,15 +70,21 @@
 		>A thermal battery developed by Antora Energy<FN
 			{footnotes}
 			desc="Antora Energy"
+			accessed="15th November, 2023"
 			url="https://antoraenergy.com/"
 		/> stores heat over a temperature of <TT tt={['2000<sup>o</sup>C', '3600<sup>o</sup>F']} /> and can
 		be used for heat-intensive production such as steel or concrete.
+		<div class="width80">
+			<img src="/images/Antora-Thermal-Battery.webp" alt="thermal battery" />
+			<div class="caption"><a href="https://antoraenergy.com">antoraenergy.com</a></div>
+		</div>
 	</span>
 	<ul>
 		<li>
 			<strong>This is really cool tech!</strong> Listen to the podcast! <FN
 				{footnotes}
 				desc="'A super-battery aimed at decarbonizing industry'"
+				accessed="15th November, 2023"
 				url="https://transcripts.volts.wtf/a-super-battery-aimed-at-decarbonizing-industry"
 			/>. Details below.
 		</li>
@@ -105,7 +114,7 @@
 		<li>
 			Light is used to extract the energy from the battery. The light can be used to heat up fluid
 			in a pipe or to create steam, which is what typical heat batteries do. Or the light can be
-			shone on photovoltaic panels to generate electricity.
+			shone on thermovoltaic panels (TPV) to generate electricity.
 		</li>
 		<li>
 			The battery has an insulated door that can be closed to turn off the battery or opened to
@@ -128,7 +137,7 @@
 			TPV, with its reflection and reabsorption of photons, has reached 40%.
 		</li>
 		<li>
-			A shutter in front of the photovoltaics and a separate shutter in front of something
+			A shutter in front of the thermovoltaics and a separate shutter in front of something
 			extracting heat means each can be independently controlled.
 		</li>
 	</ul>
@@ -143,5 +152,8 @@
 		li {
 			margin-bottom: 0.5em;
 		}
+	}
+	img {
+		margin: 0.5em;
 	}
 </style>
