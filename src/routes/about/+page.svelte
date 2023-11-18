@@ -32,8 +32,8 @@
 
 <p>
 	When experts talk, I listen. But not blindly. Not all experts are created equally; some are
-	&ndash; tragically &ndash; paid shills. I do investigate experts credentials, preferring
-	peer-reviewed credible sources over discredited guests on inflammatory podcasts.
+	&ndash; tragically &ndash; paid shills. I prefer peer-reviewed credible sources over discredited
+	guests on inflammatory podcasts.
 </p>
 
 <p>
