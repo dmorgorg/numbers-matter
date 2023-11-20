@@ -8,6 +8,6 @@
 	main {
 		display: flex;
 		justify-content: center;
-		font-size: 100%;
+		/* font-size: 100%; */
 	}
 </style>

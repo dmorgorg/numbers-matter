@@ -22,7 +22,7 @@
 	a {
 		border-radius: 0.375em;
 		@apply text-primary-100;
-		padding: 0 0.375em 0.0625em 0.375em;
+		padding: 0 0.375em 0.1em 0.375em;
 
 		&.isActive {
 			box-shadow: 0.1em 0.1em 0.5em 0.025em rgb(0 0 0 / 0.25);
@@ -34,11 +34,11 @@
 			@apply text-black;
 
 			&.isActive {
-				@apply bg-primary-300;
+				@apply bg-primary-400;
 			}
 
 			&:not(.isActive) {
-				@apply bg-primary-400;
+				@apply bg-primary-300;
 			}
 		}
 	}

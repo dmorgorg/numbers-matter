@@ -1,19 +1,20 @@
 html {
 	font-size: clamp(10px, 3vw, 14px);
 	font-size: 4vw;
-	height: 100vh;
+	height: 100%;
 }
 
 body {
-	height: 100vh;
+	height: 100%;
 	// overflow-y: hidden;
+	// background-color: red;
 }
 
-#page {
-	width: 100%;
-	// background: pink;
-	padding: 0;
-}
+// #page {
+// 	background-color: #4e7350;
+// 	background-color: white;
+// 	width: 100%;
+// }
 #page-content {
 	color: black;
 	line-height: 1.4;
@@ -23,6 +24,7 @@ body {
 	p {
 		margin-bottom: 1em;
 	}
+	// border: 1px solid black;
 }
 .drawer-button,
 .page-header,
@@ -31,11 +33,12 @@ body {
 }
 ul {
 	list-style-type: disc;
-	margin-top: 1em;
-	margin-left: 2em;
+	// margin-top: 1em;
+	// margin-left: 2em;
 }
 li {
-	margin-bottom: 0.5em;
+	// margin-bottom: 0.5em;
+	margin: 0.5em;
 }
 img {
 	margin: 0.5em auto;
@@ -46,18 +49,31 @@ img {
 	margin: -0.5em auto 0.5em auto;
 }
 
-.home nav {
-	padding: 2em;
-	font-size: 110%;
-	scrollbar-color: yellow;
+.home {
+	// background: #4e7350;
 
-	ul {
-		margin: 1.25em;
-		margin-top: 0.25em;
-		li {
-			a {
-				color: black;
-				padding: 0.125em 0.375em;
+	nav {
+		padding-top: 2em;
+		font-size: 1em;
+		display: flex;
+		justify-content: center;
+
+		ul {
+			font-weight: bold;
+			margin: 0.25em;
+			// margin-top: 0.125em;
+			li {
+				a {
+					color: #4e7350;
+					padding: 0.125em 0.375em;
+					// background-color: #bcccbc;
+					// margin-top: 1em;
+					// margin-left: 0.75em;
+				}
+
+				&::before {
+					color: #4e7350;
+				}
 			}
 		}
 	}

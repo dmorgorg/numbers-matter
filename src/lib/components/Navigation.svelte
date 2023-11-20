@@ -1,11 +1,9 @@
 <script lang="ts">
 	import NavLink from '$lib/components/NavLink.svelte';
-	import NavLink2 from '$lib/components/NavLink2.svelte';
-	import TT from './ToolTip.svelte';
 	let activeBackground = 'bg-primary-400';
 </script>
 
-<nav class=" nav-component">
+<nav>
 	<ul>
 		<li>
 			<NavLink href="/" title="Home" {activeBackground} />
@@ -14,7 +12,7 @@
 			<NavLink href="/about" title="About" {activeBackground} />
 		</li>
 		<li>
-			<div class="font-medium underline">
+			<div class="font-bold underline">
 				<NavLink href="/climate" title="Climate" {activeBackground} />
 			</div>
 			<ul>
@@ -55,21 +53,21 @@
 								{activeBackground}
 							/>
 							<ul class="subsection">
-								<li class="font-normal">
+								<li>
 									<NavLink
 										href="/climate/solutions/electricity/generation"
 										title="<s>Generation</s>"
 										{activeBackground}
 									/>
 									<ul class="subsubsection">
-										<li class="font-normal">
+										<li>
 											<NavLink
 												href="/climate/solutions/electricity/generation/wind"
 												title="<s>Wind</s>"
 												{activeBackground}
 											/>
 										</li>
-										<li class="font-normal">
+										<li>
 											<NavLink
 												href="/climate/solutions/electricity/generation/solar"
 												title="<s>Solar</s>"
@@ -158,47 +156,31 @@
 	ul {
 		list-style: none;
 		padding-left: 1.25rem;
-		margin-left: 0;
+		margin: 0;
 		@apply text-primary-100;
+		line-height: 1.25;
 
 		&:last-child {
-			/* border: 1px solid red; */
-			margin-bottom: 1em;
 		}
 
 		li {
-			margin: 0.125em;
-			margin: 0;
-			/* padding: 0.125em 0; */
-
 			li {
 				&::before {
 					font-size: 110%;
-					content: '\220e\00a0';
+					content: '\220e';
 				}
 
-				/* &:nth-last-child(1) {
-					margin-bottom: 0.75em;
-				} */
-				&:nth-child(1) {
-					margin-top: -0.5em;
-				}
 				li {
 					&::before {
-						font-size: 110%;
-						content: '>\00a0';
+						content: '>';
 					}
 					li {
-						margin-top: 0;
-
 						&::before {
-							font-size: 120%;
-							content: '\226b\00a0';
+							content: '\226b';
 						}
 						li {
 							&::before {
-								font-size: 120%;
-								content: '\22d9\00a0';
+								content: '\22d9';
 							}
 						}
 					}
