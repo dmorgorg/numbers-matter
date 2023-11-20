@@ -159,6 +159,7 @@
 		margin: 0;
 		@apply text-primary-100;
 		line-height: 1.25;
+		@apply font-medium;
 
 		&:last-child {
 		}

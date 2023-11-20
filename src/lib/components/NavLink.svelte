@@ -22,23 +22,25 @@
 	a {
 		border-radius: 0.375em;
 		@apply text-primary-100;
-		padding: 0 0.375em 0.1em 0.375em;
+		padding: 0 0.175em 0.15em 0.175em;
+		margin-left: 0.25em;
 
 		&.isActive {
 			box-shadow: 0.1em 0.1em 0.5em 0.025em rgb(0 0 0 / 0.25);
 			@apply text-black;
+			@apply bg-primary-300;
 		}
 
 		&:hover {
 			box-shadow: 0.1em 0.1em 0.5em 0.025em rgb(0 0 0 / 0.125);
 			@apply text-black;
 
-			&.isActive {
-				@apply bg-primary-400;
-			}
+			/* &.isActive {
+				@apply bg-primary-200;
+			} */
 
 			&:not(.isActive) {
-				@apply bg-primary-300;
+				@apply bg-primary-400;
 			}
 		}
 	}

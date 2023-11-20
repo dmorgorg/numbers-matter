@@ -23,11 +23,10 @@
 
 <p>
 	One lesson I have learned from various stints at university is to listen carefully to those who
-	are smarter than I am and are better informed about their area of expertise than I do &ndash; and
-	have spent, in many cases, decades honing that specialist knowledge. I could spend a lifetime on <a
-		href="https://youtu.be"
-		class="text-sky-600">YouTube</a
-	> and still not be worthy to sit at their feet.
+	are smarter than I am and are better informed about their area of expertise than I am &ndash; and
+	have spent, in many cases, decades honing that specialist knowledge. I could spend a lifetime
+	researching on <a href="https://youtu.be" class="text-sky-600">YouTube</a> and still not be worthy
+	to sit at their feet.
 </p>
 
 <p>
