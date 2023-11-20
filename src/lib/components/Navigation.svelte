@@ -108,6 +108,9 @@
 							<NavLink href="/climate/solutions/industry" title="Industry" {activeBackground} />
 						</li>
 						<li>
+							<NavLink href="/climate/solutions/business" title="Business" {activeBackground} />
+						</li>
+						<li>
 							<NavLink
 								href="/climate/solutions/ccs"
 								title="Carbon Capture and Storage"

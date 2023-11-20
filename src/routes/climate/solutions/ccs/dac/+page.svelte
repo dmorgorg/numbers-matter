@@ -142,15 +142,48 @@
 		</li>
 	</ul>
 </Entry>
+<Entry {footnotes} id="$100">
+	<span slot="num">$100/ton</span>
+	<span slot="lead"
+		>$100/ton is the Holy Grail of carbon pricing and startup Graphyte
+		<FN
+			{footnotes}
+			desc="Graphyte"
+			accessed="20th November, 2023"
+			url="https://www.graphyte.com/"
+		/> claims to reach that with its carbon-casting technique. Graphyte has backing from Bill Gates'
+		Breakthrough Energy Ventures.
+		<div class="width70">
+			<img src="/images/carbonCasting.jpg" alt="carbon casting blocks" />
+		</div></span
+	>
+	<ul>
+		<li>
+			Plant residues from timber and farming operations are frequently left to decompose, thereby
+			releasing their stored CO<sub>2</sub> into the atmosphere and contributing the climate change.
+			Carbon-casting aims to curtail that release. Graphyte claims to remove carbon from the atmosphere
+			but it might be more accurate to claim that it is reducing the release of carbon into the atmosphere.
+		</li>
+		<li>
+			Graphyte takes waste biomass (discarded wood residue, rice hulls, ...), dries and sterilizes
+			it to prevent decomposition, condenses the material into dense carbon blocks which are then
+			wrapped in a polymer barrier and stored underground. More or less indefinitely <FN
+				{footnotes}
+				desc="Bill Gates-Backed Startup to Use Old Wood to Remove Carbon From the Air"
+				accessed="20th November, 2023"
+				url="https://www.bloomberg.com/news/articles/2023-11-13/bill-gates-backed-startup-uses-old-wood-to-remove-carbon-from-air?embedded-checkout=true"
+			/>.
+		</li>
+		<li>
+			This process uses about one-tenth of the energy that most direct air capture methods require.
+			The company is building its first plant in Arkansas, close to timber and rice mills for source
+			materials. It projects to have the capacity to store 50,000 tons per year by July 2024.
+		</li>
+	</ul>
+</Entry>
 
-<!-- <style lang="postcss">
-	ul {
-		list-style-type: disc;
-		margin-top: 1em;
-		margin-left: 2em;
-
-		li {
-			margin-bottom: 0.5em;
-		}
+<style>
+	img {
+		border: 1px solid black;
 	}
-</style> -->
+</style>

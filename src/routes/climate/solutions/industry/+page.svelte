@@ -26,7 +26,7 @@
 	<span slot="num">20%</span>
 	<span slot="lead"
 		>Industrial heat makes up one-fifth of global energy consumption, mostly originating from fossil
-		fuel combustion<FN
+		fuel combustion <FN
 			{footnotes}
 			desc="'Clean and efficient heat for industry'"
 			accessed="13th November, 2023"

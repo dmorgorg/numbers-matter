@@ -121,6 +121,10 @@
 		<dd>Internal Combustion Engine</dd>
 	</dl>
 	<dl>
+		<dt>ICT</dt>
+		<dd>Information and Communication Technology</dd>
+	</dl>
+	<dl>
 		<dt>IPCC</dt>
 		<dd>Intergovernmental Panel on Climate Change</dd>
 	</dl>
@@ -155,6 +159,10 @@
 	<dl>
 		<dt>TPV</dt>
 		<dd>Thermovoltaic Panel</dd>
+	</dl>
+	<dl>
+		<dt>WFH</dt>
+		<dd>Work From Home</dd>
 	</dl>
 	<dl>
 		<dt>WWS</dt>
