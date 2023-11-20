@@ -41,6 +41,13 @@
 								</li>
 							</ul>
 						</li>
+						<li>
+							<NavLink
+								href="/climate/problems/greatDivide"
+								title="The Great Divide"
+								{activeBackground}
+							/>
+						</li>
 					</ul>
 				</li>
 				<li>

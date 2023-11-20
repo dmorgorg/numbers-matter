@@ -9,12 +9,29 @@
 
 <PageHeader>Effects of Global Warming</PageHeader>
 
+<Entry bind:footnotes id="3.2deg">
+	<span slot="num"><TT tt={['3.2<sup>o</sup>C', '5.8<sup>o</sup>F']} /></span>
+	<span slot="lead"
+		>With policies currently in place, we are estimated to have <TT
+			tt={['3.2<sup>o</sup>C', '5.8<sup>o</sup>F']}
+		/> of global warming by the end of the century, more than double the <TT
+			tt={['1.5<sup>o</sup>C', '2.7<sup>o</sup>F']}
+		/> agreed as a maximum by signatories to the Paris Agreement <FN
+			{footnotes}
+			desc="'Climate Equality: A planet for the 99%'"
+			accessed="20th November, 2023"
+			url="https://webassets.oxfamamerica.org/media/documents/cr-climate-equality-201123-en.pdf"
+		/>.
+	</span>
+	<!-- <img src="/images/g78.jpg" alt="first ascent of a nunatak in eastern Greenland, 1969" /> -->
+</Entry>
+
 <Entry bind:footnotes id="7m">
-	<span slot="num"><TT tt={['7m', '23 feet']} /></span>
+	<span slot="num"><TT tt={['7 metres', '23 feet']} /></span>
 	<span slot="lead"
 		>The Greenland ice sheet is melting. At our current rate of increasing carbon emissions, we are
 		on track for it all to disappear. If that happens, mean sea-level (MSL) will rise by about <TT
-			tt={['<b>7m</b>', '23 feet']}
+			tt={['<b>7 metres</b>', '23 feet']}
 		/> (due to the Greenland ice sheet alone).</span
 	>
 	<!-- <img src="/images/g78.jpg" alt="first ascent of a nunatak in eastern Greenland, 1969" /> -->
@@ -23,12 +40,12 @@
 			According to modelling and to historical data, there is a threshold beyond which
 			self-sustained melting will continue. This threshold has been modelled to occur at a global
 			mean temperature (GMT) between <TT tt={['1.7C', '3.1F']} /> and <TT tt={['2.3C', '4.1F']} /> above
-			preindustrial temperatures. <FN
+			preindustrial temperatures <FN
 				{footnotes}
 				desc="'Overshooting the critical threshold for the Greenland ice sheet.'"
 				accessed="9th November, 2023"
 				url="https://www.nature.com/articles/s41586-023-06503-9.epdf?sharing_token=uM50_RcUz4zkGFgBOXzH8NRgN0jAjWel9jnR3ZoTv0PT1p_hQwiMqEqpCXKZLjNJlG-pthmBWCBxpbig2NOfwIeHOplJDOSnt9Vt9OHSYM9wOSg80by7OHvNJIOKbz9JZdMjyxmZ1ticBjCJj8jaT7rduXaM4ajLaxus0ykIO1Y%3D"
-			/>
+			/>.
 		</li>
 		<li>
 			For several months this year (2023), we were at<TT tt={['1.5C', '2.7F']} /> above preindustrial

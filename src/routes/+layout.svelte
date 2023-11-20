@@ -54,7 +54,7 @@
 		<AppBar background="bg-primary-600 z-0">
 			<svelte:fragment slot="lead">
 				<button
-					class="lg:hidden header-button btn rounded-full bg-primary-300 shadow-lg px-5 py-3 drawer-button"
+					class="lg:hidden header-button btn rounded-full bg-primary-300 shadow-lg px-5 py-3 drawer-button border border-black"
 					on:click={drawerOpen}
 				>
 					<span>
@@ -68,7 +68,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div
-					class="site-title rounded-full font-bold text-primary-700 py-2 px-6 bg-primary-300 shadow-lg text-xl"
+					class="site-title rounded-full font-bold text-primary-700 py-2 px-6 bg-primary-300 shadow-lg text-xl border border-black"
 				>
 					numbers-matter
 				</div>

@@ -39,6 +39,8 @@
 
 		<div class="slot pt-2" class:hide={!open} class:headless>
 			<slot />
+			<!-- </div>
+		<div class="footnote"> -->
 			<FootnoteDisplay {entryIndex} {footnotes} />
 		</div>
 	</section>
@@ -47,7 +49,6 @@
 <style lang="postcss">
 	section {
 		border-color: #568056;
-		/* @apply border-s-8; */
 		border-radius: 0;
 	}
 	.entry {

@@ -27,6 +27,8 @@
 <style lang="postcss">
 	.container {
 		width: 27em;
+		/* border: 1px solid black; */
+		max-width: 100%;
 		margin: 0 auto;
 		display: flex;
 		justify-content: center;
@@ -39,12 +41,14 @@
 			align-items: flex-start;
 			@apply text-primary-500;
 			align-items: flex-start;
+			overflow-x: hidden;
 
 			h3 {
 				color: black;
 				text-decoration: underline;
 				margin-bottom: 0.25em;
 				align-self: center;
+				text-align: center;
 				font-weight: bold;
 			}
 
@@ -52,6 +56,8 @@
 				font-size: 80%;
 				padding-left: 1.375em;
 				text-indent: -1.375em;
+				/* overflow-x: hidden; */
+				/* border: 1px solid black; */
 
 				.desc {
 					color: black;
