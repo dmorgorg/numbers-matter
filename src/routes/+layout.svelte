@@ -2,7 +2,7 @@
 	import '../app.postcss';
 	import '$lib/styles/global.scss';
 	// import { fade } from 'svelte/transition';
-	import { AppShell, AppBar, storePopup } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import {
 		Drawer,
 		initializeStores,
@@ -12,7 +12,7 @@
 
 	import Navigation from '$lib/components/Navigation.svelte';
 
-	$: slotSidebarLeft = $page.url.pathname === '/' ? 'w-0' : 'lg:w-auto bg-tertiary-600 pr-4';
+	$: slotSidebarLeft = $page.url.pathname === '/' ? 'w-0' : 'w-0 lg:w-auto bg-primary-600 lg:pr-4';
 
 	// Floating UI for Popups
 	// import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
@@ -23,7 +23,7 @@
 	const drawerStore = getDrawerStore();
 	const drawerSettings: DrawerSettings = {
 		id: 'left',
-		bgDrawer: 'bg-tertiary-700',
+		bgDrawer: 'bg-primary-700',
 		bgBackdrop: 'bg-surface-200/80',
 		width: 'w-auto',
 		// padding: 'py-2 pl-2',
@@ -41,7 +41,7 @@
 <Drawer transitions={false}>
 	<div class="relative">
 		<button
-			class=" drawer-button btn-icon bg-tertiary-300 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full text-black"
+			class=" drawer-button btn-icon bg-primary-300 absolute top-4 right-4 font-extrabold text-2xl pt-0 pb-1 px-4 rounded-full text-black"
 			on:click={drawerClose}><span>&times;</span></button
 		>
 		<div class="nav"><Navigation /></div>
@@ -49,16 +49,16 @@
 </Drawer>
 
 <AppShell {slotSidebarLeft} class="bg-white">
-	<!-- <AppShell slotSidebarLeft="w-0 lg:w-auto bg-tertiary-600 pr-4 pt-0" class="bg-white"> -->
+	<!-- <AppShell slotSidebarLeft="w-0 lg:w-auto bg-primary-600  pt-0" class="bg-white"> -->
 	<svelte:fragment slot="header">
-		<AppBar background="bg-tertiary-600 z-0">
+		<AppBar background="bg-primary-600 z-0">
 			<svelte:fragment slot="lead">
 				<button
-					class="lg:hidden header-button btn rounded-full bg-tertiary-300 shadow-lg px-5 py-3 drawer-button"
+					class="lg:hidden header-button btn rounded-full bg-primary-300 shadow-lg px-5 py-3 drawer-button"
 					on:click={drawerOpen}
 				>
 					<span>
-						<svg viewBox="0 0 100 100" class=" w-5 h-5">
+						<svg viewBox="0 0 100 100" class=" w-5 h-5 fill-primary-700">
 							<rect width="150" height="20" />
 							<rect y="40" width="150" height="20" />
 							<rect y="80" width="150" height="20" />
@@ -68,7 +68,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div
-					class="site-title rounded-full font-bold text-tertiary-700 py-2 px-6 bg-tertiary-300 shadow-lg text-xl"
+					class="site-title rounded-full font-bold text-primary-700 py-2 px-6 bg-primary-300 shadow-lg text-xl"
 				>
 					numbers-matter
 				</div>

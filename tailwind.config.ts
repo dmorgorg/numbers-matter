@@ -1,15 +1,18 @@
-import { join } from 'path'
-import type { Config } from 'tailwindcss'
+import { join } from 'path';
+import type { Config } from 'tailwindcss';
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
 import { skeleton } from '@skeletonlabs/tw-plugin';
-import { myCustonTheme } from './src/myCustonTheme'
+import { myCustomTheme } from './src/myCustomTheme';
 
 export default {
 	darkMode: 'class',
-	content: ['./src/**/*.{html,js,svelte,ts}', join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')],
+	content: [
+		'./src/**/*.{html,js,svelte,ts}',
+		join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')
+	],
 	theme: {
-		extend: {},
+		extend: {}
 	},
 	plugins: [
 		forms,
@@ -19,21 +22,19 @@ export default {
 				preset: [
 					{
 						name: 'skeleton',
-						enhancements: true,
+						enhancements: true
 					},
 					{
 						name: 'modern',
-						enhancements: true,
+						enhancements: true
 					},
 					{
 						name: 'hamlindigo',
-						enhancements: true,
-					},
+						enhancements: true
+					}
 				],
-				custom: [
-					myCustonTheme,
-				],
-			},
-		}),
-	],
+				custom: [myCustomTheme]
+			}
+		})
+	]
 } satisfies Config;

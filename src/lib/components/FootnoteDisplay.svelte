@@ -37,7 +37,7 @@
 			flex-direction: column;
 			align-self: center;
 			align-items: flex-start;
-			@apply text-tertiary-500;
+			@apply text-primary-500;
 			align-items: flex-start;
 
 			h3 {
@@ -58,7 +58,7 @@
 				}
 
 				a {
-					@apply text-tertiary-500;
+					@apply text-primary-500;
 
 					&:hover {
 						text-decoration: underline;

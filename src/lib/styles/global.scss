@@ -49,21 +49,16 @@ img {
 .home nav {
 	padding: 2em;
 	font-size: 110%;
+	scrollbar-color: yellow;
 
 	ul {
 		margin: 1.25em;
-		// margin-left: 2em;
 		margin-top: 0.25em;
 		li {
 			a {
 				color: black;
 				padding: 0.125em 0.375em;
 			}
-
-			// &:first-of-type {
-			// 	// color: red;
-			// 	// margin-top: -0.5em;
-			// }
 		}
 	}
 }

@@ -38,7 +38,7 @@
 
 <p>
 	If you find errors on this site, please mail me at
-	<span class="font-mono">dave&ndash;at&ndash;dmorg.org</span>
+	<span class="font-mono">dave&ndash;at&ndash;dmorg-dot-org</span>
 	with the words "Numbers Error!" or equivalent in the subject. Include a link in your mail to a credible
 	publication that refutes my assertion, to help me with any corrections.
 </p>

@@ -2,7 +2,7 @@
 	import NavLink from '$lib/components/NavLink.svelte';
 	import NavLink2 from '$lib/components/NavLink2.svelte';
 	import TT from './ToolTip.svelte';
-	let activeBackground = 'bg-tertiary-400';
+	let activeBackground = 'bg-primary-400';
 </script>
 
 <nav class=" nav-component">
@@ -127,7 +127,7 @@
 							<!-- </li> -->
 						</li>
 						<li>
-							<NavLink href="/climate/solutions/general" title="100% WWS" {activeBackground} />
+							<NavLink href="/climate/solutions/100pcWWS" title="100% WWS" {activeBackground} />
 						</li>
 					</ul>
 				</li>
@@ -159,7 +159,7 @@
 		list-style: none;
 		padding-left: 1.25rem;
 		margin-left: 0;
-		/* margin-top: 0.5em; */
+		@apply text-primary-100;
 
 		&:last-child {
 			/* border: 1px solid red; */
@@ -173,8 +173,8 @@
 
 			li {
 				&::before {
-					font-size: 120%;
-					content: '\220e';
+					font-size: 110%;
+					content: '\220e\00a0';
 				}
 
 				/* &:nth-last-child(1) {
@@ -185,20 +185,20 @@
 				}
 				li {
 					&::before {
-						font-size: 130%;
-						content: '>';
+						font-size: 110%;
+						content: '>\00a0';
 					}
 					li {
 						margin-top: 0;
 
 						&::before {
-							font-size: 130%;
-							content: '\226b';
+							font-size: 120%;
+							content: '\226b\00a0';
 						}
 						li {
 							&::before {
-								font-size: 140%;
-								content: '\22d9';
+								font-size: 120%;
+								content: '\22d9\00a0';
 							}
 						}
 					}

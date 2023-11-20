@@ -44,13 +44,12 @@
 				accessed="18th November, 2023"
 				url="https://ourworldindata.org/grapher/number-of-deaths-per-year"
 			/> so 1 in 6.6 deaths worldwide were premature. And premature because of fossil fuel pollution.
-			(Other estimates from the same study get a higher death rate. <FN
+			(Other estimates, from University Colleg London, suggest a higher impact <FN
 				{footnotes}
 				desc="'Fossil fuel air pollution responsible for 1 in 5 deaths worldwide'"
 				accessed="18th November, 2023"
 				url="https://www.ucl.ac.uk/news/2021/feb/fossil-fuel-air-pollution-responsible-1-5-deaths-worldwide"
-			/>. Either way...)
+			/>.)
 		</li>
-		<li>Earlier figures were lower, based as they were on interior</li>
 	</ul>
 </Entry>

@@ -24,7 +24,7 @@
 </script>
 
 <div {id} class="relative pb-2 pt-2">
-	<button class="entry-toggle-button bg-tertiary-500 absolute -top-1 -right-2" on:click={toggle}>
+	<button class="entry-toggle-button bg-primary-500 absolute -top-1 -right-2" on:click={toggle}>
 		{#if !open}
 			<b>&plus;</b>
 		{:else}
@@ -33,7 +33,7 @@
 	>
 	<section class="entry card flex flex-col p-4 border-s-8 lg:border-s-0" class:blank class:headless>
 		<header class="flex items-center flex-start">
-			<span class="num text-tertiary-600 font-bold text-2xl"><slot name="num" /> </span>
+			<span class="num text-primary-600 font-bold text-2xl"><slot name="num" /> </span>
 			<div class="ml-4"><slot name="lead" /></div>
 		</header>
 
@@ -46,16 +46,18 @@
 
 <style lang="postcss">
 	section {
-		border-color: #598792;
+		border-color: #568056;
 		/* @apply border-s-8; */
+		border-radius: 0;
 	}
 	.entry {
 		margin-bottom: 1.5em;
 		&.card {
-			@apply bg-tertiary-50;
+			@apply bg-primary-50;
 		}
 	}
 	.entry-toggle-button {
+		@apply text-primary-100;
 		padding-bottom: 0.1em;
 		border-radius: 50%;
 		height: 1.5em;

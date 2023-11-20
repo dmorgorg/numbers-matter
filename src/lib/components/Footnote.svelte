@@ -21,6 +21,6 @@
 <style lang="postcss">
 	span {
 		/* cursor: pointer; */
-		@apply text-tertiary-500;
+		@apply text-primary-500;
 	}
 </style>

@@ -12,6 +12,10 @@
 		<dd>Business As Usual</dd>
 	</dl>
 	<dl>
+		<dt>BEV</dt>
+		<dd>Battery Electric Vehicle</dd>
+	</dl>
+	<dl>
 		<dt>BECCS</dt>
 		<dd>Bioenergy with Carbon Capture and Storage</dd>
 	</dl>
@@ -69,6 +73,10 @@
 		</dd>
 	</dl>
 	<dl>
+		<dt>EV</dt>
+		<dd>Electric Vehicle</dd>
+	</dl>
+	<dl>
 		<dt>GMT</dt>
 		<dd>Global Mean Temperature</dd>
 	</dl>
@@ -109,6 +117,10 @@
 		</dd>
 	</dl>
 	<dl>
+		<dt>ICE</dt>
+		<dd>Internal Combustion Engine</dd>
+	</dl>
+	<dl>
 		<dt>IPCC</dt>
 		<dd>Intergovernmental Panel on Climate Change</dd>
 	</dl>
@@ -123,6 +135,10 @@
 	<dl>
 		<dt>NZE</dt>
 		<dd>Net Zero Emissions</dd>
+	</dl>
+	<dl>
+		<dt>PHEV</dt>
+		<dd>Plugin Hybrid Electric Vehicle</dd>
 	</dl>
 	<dl>
 		<dt>REC</dt>
@@ -153,6 +169,7 @@
 		justify-content: center;
 		width: 90%;
 		margin: 0 auto;
+		padding-bottom: 3em;
 	}
 	dl {
 		display: flex;
@@ -164,7 +181,7 @@
 	dt {
 		flex-basis: 20%;
 		padding: 0.05em 0.5em;
-		@apply bg-tertiary-400;
+		@apply bg-primary-300;
 		@apply rounded-s-full;
 		/* border-top-left-radius: 0.375em;
 		border-bottom-left-radius: 0.375em; */

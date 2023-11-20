@@ -21,7 +21,7 @@
 <style lang="postcss">
 	a {
 		border-radius: 0.375em;
-		@apply text-tertiary-100;
+		@apply text-primary-100;
 		padding: 0 0.375em 0.0625em 0.375em;
 
 		&.isActive {
@@ -34,11 +34,11 @@
 			@apply text-black;
 
 			&.isActive {
-				@apply bg-tertiary-300;
+				@apply bg-primary-300;
 			}
 
 			&:not(.isActive) {
-				@apply bg-tertiary-400;
+				@apply bg-primary-400;
 			}
 		}
 	}
