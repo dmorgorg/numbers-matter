@@ -130,9 +130,14 @@
 				desc="'Amazon.com salaries: How much does Amazon.com pay?'"
 				accessed="21st November, 2023"
 				url="https://www.indeed.com/cmp/Amazon.com/salaries"
-			/>
+			/>, 18% less than the $20.40 wage required for an average one-bedroom rental <FN
+				{footnotes}
+				desc="'Out of Reach'"
+				accessed="21st November, 2023"
+				url="https://nlihc.org/oor"
+			/>.
 		</li>
-		<li>$120 million is less than a quarter of what Bezos spent on his superyacht.</li>
+		<!-- <li>$120 million is less than a quarter of what Bezos spent on his superyacht.</li> -->
 	</ul>
 </Entry>
 <Entry bind:footnotes id="393mill">
