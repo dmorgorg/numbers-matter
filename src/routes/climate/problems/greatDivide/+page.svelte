@@ -31,6 +31,30 @@
 	</p>
 </Entry>
 
+<Entry bind:footnotes id="7.6C">
+	<span slot="num"><TT tt={['7.6<sup>o</sup>C', '13.7<sup>o</sup>F']} /></span>
+	<span slot="lead"
+		>There is an average temperature difference of <TT
+			tt={['7.6<sup>o</sup>C', '13.7<sup>o</sup>F']}
+		/> between formal and informal housing, notably pavement dwelling, in India <FN
+			{footnotes}
+			desc="'Climate Change, Heat Waves and
+            Thermal Comfort—Reflections on
+            Housing Policy in India'"
+			accessed="21st November, 2023"
+			url="https://journals.sagepub.com/doi/pdf/10.1177/0975425320906249"
+		/>.
+	</span>
+	<div class="width80"><img src="/images/mumbai.png" alt="mumbai formal and slum housing" /></div>
+	<div class="caption">The area surrounding the Bandra Kurla complex in Mumbai.</div>
+	<ul>
+		<li>
+			Cities are typically several degrees warmer than rural areas, and areas within cities without
+			much green space are hotter still. In the US, people of color tend to reside in hotter
+			neighbourhoods than Whites.
+		</li>
+	</ul>
+</Entry>
 <Entry bind:footnotes id="2640">
 	<span slot="num">2640</span>
 	<span slot="lead"

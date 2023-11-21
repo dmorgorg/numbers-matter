@@ -33,7 +33,7 @@
 	>
 	<section class="entry card flex flex-col p-4 border-s-8 lg:border-s-0" class:blank class:headless>
 		<header class="flex items-center flex-start">
-			<span class="num text-primary-600 font-bold text-2xl"><slot name="num" /> </span>
+			<span class="num text-primary-600 text-2xl"><slot name="num" /> </span>
 			<div class="ml-4"><slot name="lead" /></div>
 		</header>
 
@@ -66,6 +66,7 @@
 	}
 	.num {
 		/* text-shadow: 0 0 0.2rem black; */
+		font-weight: 500;
 	}
 	.slot {
 		width: 90%;
