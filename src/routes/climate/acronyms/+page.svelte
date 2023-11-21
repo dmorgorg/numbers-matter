@@ -207,9 +207,8 @@
 		flex-grow: 1;
 		margin: 0;
 		padding: 0.05em 1em;
-		/* border: solid #333;
-		border-width: 1px 1px 1px 0; */
-		@apply bg-gray-200;
+		/* @apply bg-gray-200; */
+		@apply bg-primary-50;
 		border-left: 0.5em solid white;
 		@apply rounded-e-full;
 	}
