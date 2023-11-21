@@ -36,7 +36,9 @@
 	<a href="/climate/solutions/ccs/dac#728">728 kg/ha</a>
 	<a href="/climate/solutions/industry#2000C">2000<sup>o</sup>C</a>
 	<a href="/climate/problems/greatDivide#2640">2640</a>
-	<a href="/climate/solutions/ccs/dac#4000C">4000<sup>o</sup>C</a>
+	<a href="/climate/solutions/ccs/dac#4000tonnes"
+		><TT tt={['4,000 tonnes', '3900 (long) tons']} /></a
+	>
 	<a href="/climate/problems/greatDivide#1mill">1 million</a>
 	<a href="/climate/problems/greatDivide#1.3mill">1.3 million</a>
 	<a href="/climate/solutions/100pcWWS#4.7mill">4.7 million</a>

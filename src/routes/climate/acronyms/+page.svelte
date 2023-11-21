@@ -161,6 +161,10 @@
 		<dd>Thermovoltaic Panel</dd>
 	</dl>
 	<dl>
+		<dt>UHI</dt>
+		<dd>Urban Heat Islands</dd>
+	</dl>
+	<dl>
 		<dt>WFH</dt>
 		<dd>Work From Home</dd>
 	</dl>

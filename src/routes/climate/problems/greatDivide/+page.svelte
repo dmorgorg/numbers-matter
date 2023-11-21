@@ -31,6 +31,44 @@
 	</p>
 </Entry>
 
+<Entry bind:footnotes id="45%">
+	<span slot="num">45%</span>
+	<span slot="lead"
+		>Food prices began to increase in mid-2021. Blame has been pointed at the war in Ukraine, supply
+		chain disruptions due to the pandemic<FN
+			{footnotes}
+			desc="'Food Inflation in the U.S. and Abroad'"
+			accessed="21st November, 2023"
+			url="https://econofact.org/food-inflation-in-the-u-s-and-abroad"
+		/>.
+	</span>
+	<div class="width80"><img src="/images/mumbai.png" alt="mumbai formal and slum housing" /></div>
+	<div class="caption">The area surrounding the Bandra Kurla complex in Mumbai.</div>
+	<ul>
+		<li>
+			Cities are typically several degrees warmer than rural areas, and areas within cities without
+			much green space are hotter still. In the US, people of color tend to reside in hotter
+			neighbourhoods than Whites. By as much as <TT tt={['7<sup>o</sup>C', '12.6<sup>o</sup>F']} />
+			<FN
+				{footnotes}
+				desc="'Disproportionately higher exposure to urban heat in lower-income neighborhoods: a multi-city perspective'"
+				accessed="21st November, 2023"
+				url="https://iopscience.iop.org/article/10.1088/1748-9326/ab3b99"
+			/>.
+		</li>
+		<li>
+			A study of 25 cities to investigate the relationship between urban heat islands (UHI) and
+			income found that in only four of the 25 (Atlanta, Barcelona, Johannesburg and Sao Paulo) is
+			daytime or nighttime UHI distributed more equally than income. For the remaining 21 cities,
+			poorer neighbourhoods experienced higher heat exposure <FN
+				{footnotes}
+				desc="'The Effects of Historical Housing Policies on Resident Exposure to Intra-Urban Heat: A Study of 108 US Urban Areas'"
+				accessed="21st November, 2023"
+				url="https://www.mdpi.com/2225-1154/8/1/12"
+			/>.
+		</li>
+	</ul>
+</Entry>
 <Entry bind:footnotes id="7.6C">
 	<span slot="num"><TT tt={['7.6<sup>o</sup>C', '13.7<sup>o</sup>F']} /></span>
 	<span slot="lead"
@@ -51,7 +89,24 @@
 		<li>
 			Cities are typically several degrees warmer than rural areas, and areas within cities without
 			much green space are hotter still. In the US, people of color tend to reside in hotter
-			neighbourhoods than Whites.
+			neighbourhoods than Whites. By as much as <TT tt={['7<sup>o</sup>C', '12.6<sup>o</sup>F']} />
+			<FN
+				{footnotes}
+				desc="'Disproportionately higher exposure to urban heat in lower-income neighborhoods: a multi-city perspective'"
+				accessed="21st November, 2023"
+				url="https://iopscience.iop.org/article/10.1088/1748-9326/ab3b99"
+			/>.
+		</li>
+		<li>
+			A study of 25 cities to investigate the relationship between urban heat islands (UHI) and
+			income found that in only four of the 25 (Atlanta, Barcelona, Johannesburg and Sao Paulo) is
+			daytime or nighttime UHI distributed more equally than income. For the remaining 21 cities,
+			poorer neighbourhoods experienced higher heat exposure <FN
+				{footnotes}
+				desc="'The Effects of Historical Housing Policies on Resident Exposure to Intra-Urban Heat: A Study of 108 US Urban Areas'"
+				accessed="21st November, 2023"
+				url="https://www.mdpi.com/2225-1154/8/1/12"
+			/>.
 		</li>
 	</ul>
 </Entry>

@@ -45,6 +45,45 @@
 		</li>
 	</ul>
 </Entry>
+<Entry {footnotes} id="$100">
+	<span slot="num">$100/ton</span>
+	<span slot="lead"
+		>$100/ton is the Holy Grail of carbon pricing and startup Graphyte
+		<FN
+			{footnotes}
+			desc="Graphyte"
+			accessed="20th November, 2023"
+			url="https://www.graphyte.com/"
+		/> claims to reach that with its carbon-casting technique. Graphyte has backing from Bill Gates'
+		Breakthrough Energy Ventures.
+		<div class="width70">
+			<img src="/images/carbonCasting.jpg" alt="carbon casting blocks" />
+		</div></span
+	>
+	<ul>
+		<li>
+			Plant residues from timber and farming operations are frequently left to decompose, thereby
+			releasing their stored CO<sub>2</sub> into the atmosphere and contributing the climate change.
+			Carbon-casting aims to curtail that release. Graphyte claims to remove carbon from the atmosphere
+			but it might be more accurate to claim that it is reducing the release of carbon into the atmosphere.
+		</li>
+		<li>
+			Graphyte takes waste biomass (discarded wood residue, rice hulls, ...), dries and sterilizes
+			it to prevent decomposition, condenses the material into dense carbon blocks which are then
+			wrapped in a polymer barrier and stored underground. More or less indefinitely <FN
+				{footnotes}
+				desc="Bill Gates-Backed Startup to Use Old Wood to Remove Carbon From the Air"
+				accessed="20th November, 2023"
+				url="https://www.bloomberg.com/news/articles/2023-11-13/bill-gates-backed-startup-uses-old-wood-to-remove-carbon-from-air?embedded-checkout=true"
+			/>.
+		</li>
+		<li>
+			This process uses about one-tenth of the energy that most direct air capture methods require.
+			The company is building its first plant in Arkansas, close to timber and rice mills for source
+			materials. It projects to have the capacity to store 50,000 tons per year by July 2024.
+		</li>
+	</ul>
+</Entry>
 
 <Entry {footnotes} id="728">
 	<span slot="num"><TT tt={['728 kg/ha', '650 lb/ac']} /></span>
@@ -91,7 +130,7 @@
 	</ul>
 </Entry>
 
-<Entry {footnotes} id="4000C">
+<Entry {footnotes} id="4000tonnes">
 	<span slot="num"><TT tt={['4,000 tonnes', '3900 (long) tons']} /></span>
 	<span slot="lead"
 		>In September, 2021, Climeworks launched the world's first direct air capture plant in
@@ -139,45 +178,6 @@
 				>9</sup
 			>/365/24/60/60/60). Each year, the Orca plant will remove slightly less than 3.5 minutes worth
 			of current CO<sub>2</sub> emissions.
-		</li>
-	</ul>
-</Entry>
-<Entry {footnotes} id="$100">
-	<span slot="num">$100/ton</span>
-	<span slot="lead"
-		>$100/ton is the Holy Grail of carbon pricing and startup Graphyte
-		<FN
-			{footnotes}
-			desc="Graphyte"
-			accessed="20th November, 2023"
-			url="https://www.graphyte.com/"
-		/> claims to reach that with its carbon-casting technique. Graphyte has backing from Bill Gates'
-		Breakthrough Energy Ventures.
-		<div class="width70">
-			<img src="/images/carbonCasting.jpg" alt="carbon casting blocks" />
-		</div></span
-	>
-	<ul>
-		<li>
-			Plant residues from timber and farming operations are frequently left to decompose, thereby
-			releasing their stored CO<sub>2</sub> into the atmosphere and contributing the climate change.
-			Carbon-casting aims to curtail that release. Graphyte claims to remove carbon from the atmosphere
-			but it might be more accurate to claim that it is reducing the release of carbon into the atmosphere.
-		</li>
-		<li>
-			Graphyte takes waste biomass (discarded wood residue, rice hulls, ...), dries and sterilizes
-			it to prevent decomposition, condenses the material into dense carbon blocks which are then
-			wrapped in a polymer barrier and stored underground. More or less indefinitely <FN
-				{footnotes}
-				desc="Bill Gates-Backed Startup to Use Old Wood to Remove Carbon From the Air"
-				accessed="20th November, 2023"
-				url="https://www.bloomberg.com/news/articles/2023-11-13/bill-gates-backed-startup-uses-old-wood-to-remove-carbon-from-air?embedded-checkout=true"
-			/>.
-		</li>
-		<li>
-			This process uses about one-tenth of the energy that most direct air capture methods require.
-			The company is building its first plant in Arkansas, close to timber and rice mills for source
-			materials. It projects to have the capacity to store 50,000 tons per year by July 2024.
 		</li>
 	</ul>
 </Entry>
