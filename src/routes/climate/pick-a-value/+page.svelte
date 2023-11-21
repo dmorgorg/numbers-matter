@@ -35,13 +35,15 @@
 	<a href="/climate/solutions/ccs/dac#$100">$100/ton</a>
 	<a href="/climate/solutions/ccs/dac#728">728 kg/ha</a>
 	<a href="/climate/solutions/industry#2000C">2000<sup>o</sup>C</a>
+	<a href="/climate/problems/greatDivide#2640">2640</a>
 	<a href="/climate/solutions/ccs/dac#4000C">4000<sup>o</sup>C</a>
 	<a href="/climate/problems/greatDivide#1mill">1 million</a>
 	<a href="/climate/problems/greatDivide#1.3mill">1.3 million</a>
 	<a href="/climate/solutions/100pcWWS#4.7mill">4.7 million</a>
 	<a href="/climate/problems/pollution#8.7mill">8.7 million</a>
 	<a href="/climate/problems/greatDivide#$93mill">$93 million</a>
-	<a href="/climate/problems/greatDivide#$393mill">$393 million</a>
+	<a href="/climate/problems/greatDivide#$120mill">$120 million</a>
+	<a href="/climate/problems/greatDivide#393mill">393 million</a>
 	<a href="/climate/problems/warming/causes#2bn">2bn tonnes</a>
 	<a href="/climate/problems/greatDivide#2.3bn">2.3 billion</a>
 	<a href="/climate/problems/warming/causes#546bn">54.6bn tonnes</a>

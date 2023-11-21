@@ -31,6 +31,17 @@
 	</p>
 </Entry>
 
+<Entry bind:footnotes id="2640">
+	<span slot="num">2640</span>
+	<span slot="lead"
+		>There are 2640 billionaires, worth a total of $12.2 trillion, on the 2023 Forbes list <FN
+			{footnotes}
+			desc="'The World's Billionaires'"
+			accessed="21st November, 2023"
+			url="https://www.forbes.com/sites/chasewithorn/2023/04/04/forbes-37th-annual-worlds-billionaires-list-facts-and-figures-2023/?sh=12dfa68a77d7"
+		/>.
+	</span>
+</Entry>
 <Entry bind:footnotes id="1mill">
 	<span slot="num">1 million</span>
 	<span slot="lead"
@@ -94,11 +105,42 @@
 		/>.
 	</span>
 </Entry>
-<Entry bind:footnotes id="$393mill">
-	<span slot="num">$393 million</span>
+<Entry bind:footnotes id="$120mill">
+	<span slot="num">$120 million</span>
+	<span slot="lead"
+		>Jezz Bezos announces (21st November, 2023) that he has donated almost $120 million dollars to
+		help US families experiencing homelessness <FN
+			{footnotes}
+			desc="'Jeff Bezos Announces He’s Donated Nearly $120 Million To Help Families Experiencing Homelessness'"
+			accessed="21st November, 2023"
+			url="https://www.forbes.com/sites/phoebeliu/2023/11/21/jeff-bezos-announces-hes-donated-nearly-120-million-to-help-families-experiencing-homelessness/?sh=73957bad1c89"
+		/>.
+	</span>
+	<div class="width80">
+		<img src="/images/bezos.webp" alt="jeff bezos" />
+		<div class="caption">
+			“It’s a privilege to support these orgs in their inspiring mission to help families regain
+			stability,” writes Bezos.
+		</div>
+	</div>
+	<ul>
+		<li>
+			The average salary for an Amazon warehouse worker is $16.73/hour <FN
+				{footnotes}
+				desc="'Amazon.com salaries: How much does Amazon.com pay?'"
+				accessed="21st November, 2023"
+				url="https://www.indeed.com/cmp/Amazon.com/salaries"
+			/>
+		</li>
+		<li>$120 million is less than a quarter of what Bezos spent on his superyacht.</li>
+	</ul>
+</Entry>
+<Entry bind:footnotes id="393mill">
+	<span slot="num">393 million</span>
 	<span slot="lead"
 		>The investments of 125 billionaires emit 393 million tons of CO<sub>2</sub> each year. As much
-		as the whole of France. <FN
+		as the whole of France.
+		<FN
 			{footnotes}
 			desc="'Richest 1% emit as much planet-heating pollution as two-thirds of humanity'"
 			accessed="20th November, 2023"
@@ -106,6 +148,7 @@
 		/>.
 	</span>
 </Entry>
+
 <Entry bind:footnotes id="2.3bn">
 	<span slot="num">2.3 billion</span>
 	<span slot="lead"
