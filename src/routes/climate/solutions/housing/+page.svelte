@@ -9,7 +9,7 @@
 
 <PageHeader>Housing Solutions</PageHeader>
 
-<Entry bind:footnotes id="40%">
+<Entry bind:footnotes id="40pc">
 	<span slot="num">40%</span>
 	<span slot="lead"
 		>Life-cycle assessment (LCA) studies performed in the last decade on the use of cross-laminated

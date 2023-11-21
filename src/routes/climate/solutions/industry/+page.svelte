@@ -22,7 +22,7 @@
 	make decarbonizing industry a big challenge.
 </Entry>
 
-<Entry {footnotes} id="20%">
+<Entry {footnotes} id="20pc">
 	<span slot="num">20%</span>
 	<span slot="lead"
 		>Industrial heat makes up one-fifth of global energy consumption, mostly originating from fossil

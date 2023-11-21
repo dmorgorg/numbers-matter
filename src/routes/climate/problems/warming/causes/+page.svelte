@@ -9,7 +9,7 @@
 
 <PageHeader>Causes of Global Warming</PageHeader>
 
-<Entry bind:footnotes id="11%">
+<Entry bind:footnotes id="11pc">
 	<span slot="num">11%</span>
 	<span slot="lead"
 		>In 2018, building materials (especially steel, brick, and steel) were responsible for 11% of
@@ -98,7 +98,7 @@
 		alt="fossil fuel consumption and associated CO2 emissions"
 	/>
 </Entry>
-<Entry bind:footnotes id="57%">
+<Entry bind:footnotes id="57pc">
 	<span slot="num">57%</span>
 	<span slot="lead"
 		>Clouds created by<TT

@@ -31,43 +31,30 @@
 	</p>
 </Entry>
 
-<Entry bind:footnotes id="45%">
+<Entry bind:footnotes id="45pc">
 	<span slot="num">45%</span>
 	<span slot="lead"
 		>Food prices began to increase in mid-2021. Blame has been pointed at the war in Ukraine, supply
-		chain disruptions due to the pandemic<FN
+		chain disruptions due to the pandemic, food product shortages, difficulties in restocking. These
+		could result in retailers passing costs on to consumers. <FN
 			{footnotes}
 			desc="'Food Inflation in the U.S. and Abroad'"
 			accessed="21st November, 2023"
 			url="https://econofact.org/food-inflation-in-the-u-s-and-abroad"
-		/>.
+		/>. There is no mention of price gouging. However, in 2020-2021, food and agriculture
+		billionaires raised their collective wealth by
+		<b>45%!</b>
+		<FN
+			{footnotes}
+			desc="'Climate Equality: A planet for the 99%'"
+			accessed="20th November, 2023"
+			url="https://webassets.oxfamamerica.org/media/documents/cr-climate-equality-201123-en.pdf"
+		/>. Think about that.
 	</span>
-	<div class="width80"><img src="/images/mumbai.png" alt="mumbai formal and slum housing" /></div>
-	<div class="caption">The area surrounding the Bandra Kurla complex in Mumbai.</div>
-	<ul>
-		<li>
-			Cities are typically several degrees warmer than rural areas, and areas within cities without
-			much green space are hotter still. In the US, people of color tend to reside in hotter
-			neighbourhoods than Whites. By as much as <TT tt={['7<sup>o</sup>C', '12.6<sup>o</sup>F']} />
-			<FN
-				{footnotes}
-				desc="'Disproportionately higher exposure to urban heat in lower-income neighborhoods: a multi-city perspective'"
-				accessed="21st November, 2023"
-				url="https://iopscience.iop.org/article/10.1088/1748-9326/ab3b99"
-			/>.
-		</li>
-		<li>
-			A study of 25 cities to investigate the relationship between urban heat islands (UHI) and
-			income found that in only four of the 25 (Atlanta, Barcelona, Johannesburg and Sao Paulo) is
-			daytime or nighttime UHI distributed more equally than income. For the remaining 21 cities,
-			poorer neighbourhoods experienced higher heat exposure <FN
-				{footnotes}
-				desc="'The Effects of Historical Housing Policies on Resident Exposure to Intra-Urban Heat: A Study of 108 US Urban Areas'"
-				accessed="21st November, 2023"
-				url="https://www.mdpi.com/2225-1154/8/1/12"
-			/>.
-		</li>
-	</ul>
+
+	<!-- <ul>
+		
+	</ul> -->
 </Entry>
 <Entry bind:footnotes id="7.6C">
 	<span slot="num"><TT tt={['7.6<sup>o</sup>C', '13.7<sup>o</sup>F']} /></span>
@@ -120,6 +107,48 @@
 			url="https://www.forbes.com/sites/chasewithorn/2023/04/04/forbes-37th-annual-worlds-billionaires-list-facts-and-figures-2023/?sh=12dfa68a77d7"
 		/>.
 	</span>
+</Entry>
+<Entry bind:footnotes id="3834">
+	<span slot="num">3,834</span>
+	<span slot="lead"
+		>A dozen of the world’s richest billionaires are responsible for nearly 17 million tonnes of
+		greenhouse emissions <FN
+			{footnotes}
+			desc="'Twelve billionaires’ climate emissions outpollute 2.1m homes, analysis finds'"
+			accessed="22nd November, 2023"
+			url="https://www.theguardian.com/environment/2023/nov/20/twelve-billionaires-climate-emissions-jeff-bezos-bill-gates-elon-musk-carbon-divide"
+		/>. Using the 'mortality cost of carbon,' at 4,434 metric tons of CO<sub>2</sub> per death <FN
+			{footnotes}
+			desc="'The mortality cost of carbon'"
+			accessed="22nd November, 2023"
+			url="https://pubmed.ncbi.nlm.nih.gov/34326326/"
+		/>, 17 million tons of emissions cause 3,834 deaths. Annually.
+	</span>
+</Entry>
+<Entry bind:footnotes id="7000t">
+	<span slot="num">7,000 tons</span>
+	<span slot="lead"
+		>A superyacht, kept on permanent standby, generates about 7,000 tons of CO<sub>2</sub> each year
+		<FN
+			{footnotes}
+			desc="'Twelve billionaires’ climate emissions outpollute 2.1m homes, analysis finds'"
+			accessed="22nd November, 2023"
+			url="https://www.theguardian.com/environment/2023/nov/20/twelve-billionaires-climate-emissions-jeff-bezos-bill-gates-elon-musk-carbon-divide"
+		/>. Jeff Bezos' new yacht, the largest sailing vessel in the world and a bargain at &euro;500
+		million, will have emissions in excess of that. At a minimum, these annual emissions are equal
+		to the lifetime emissions of 231 Nigerians <FN
+			{footnotes}
+			desc="'The mortality cost of carbon'"
+			accessed="22nd November, 2023"
+			url="https://www.nature.com/articles/s41467-021-24487-w"
+		/>.
+	</span>
+	<ul>
+		<li>
+			These yachts, however, will enable the ultra wealthy to avoid of the worst of climate change
+			and any unrest or societal breakdown arising from it.
+		</li>
+	</ul>
 </Entry>
 <Entry bind:footnotes id="1mill">
 	<span slot="num">1 million</span>
@@ -245,6 +274,26 @@
 			url="https://webassets.oxfamamerica.org/media/documents/cr-climate-equality-201123-en.pdf"
 		/>.
 	</span>
+</Entry>
+<Entry bind:footnotes id="1tn">
+	<span slot="num">1 trillion</span>
+	<span slot="lead"
+		>722 of the world's biggest corporations have raked in over $1 trillion dollars for each of the
+		two years 2022 and 2023. Share buybacks (increasing the value of shares owned by the top few
+		percent) or dividend payouts (to shareholders) effectively transfer wealth from everyone to the
+		top few percent who own shares <FN
+			{footnotes}
+			desc="'Climate Equality: A planet for the 99%'"
+			accessed="21st November, 2023"
+			url="https://webassets.oxfamamerica.org/media/documents/cr-climate-equality-201123-en.pdf"
+		/>.
+	</span>
+	<ul>
+		<li>
+			Of this 722 corporations, 45 energy corporations collected $237 billion each year in 2022 and
+			2023.
+		</li>
+	</ul>
 </Entry>
 
 <style>

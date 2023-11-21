@@ -9,7 +9,7 @@
 
 <PageHeader>Solutions for Business</PageHeader>
 
-<Entry {footnotes} id="54%">
+<Entry {footnotes} id="54pc">
 	<span slot="num">54%</span>
 	<span slot="lead"
 		>Up to 54% of work's carbon footprint may be eliminated by full-time working from home (WFH).
@@ -46,7 +46,7 @@
 			margin-bottom: 0.5em;
 		}
 	}
-	img {
+	/* img {
 		margin: 0.5em;
-	}
+	} */
 </style>

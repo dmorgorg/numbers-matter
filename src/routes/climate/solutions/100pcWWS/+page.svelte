@@ -9,7 +9,7 @@
 
 <PageHeader>Going 100% wind, water and solar...</PageHeader>
 
-<Entry bind:footnotes id="57%">
+<Entry bind:footnotes id="57pc">
 	<span slot="num">57%</span>
 	<span slot="lead"
 		>A total (United States) transition from business as usual (BAU) energy to wind-water-solar
@@ -86,7 +86,7 @@
 	</ul> -->
 </Entry>
 
-<Entry bind:footnotes id="42.5%">
+<Entry bind:footnotes id="42.5pc">
 	<span slot="num">42.5%</span>
 	<span slot="lead"
 		>A total transition, of 139 countries, from business as usual (BAU) energy to wind-water-solar

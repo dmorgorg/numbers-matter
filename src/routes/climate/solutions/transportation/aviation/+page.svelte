@@ -9,7 +9,7 @@
 
 <PageHeader>Aviation Solutions</PageHeader>
 
-<Entry bind:footnotes id="54%">
+<Entry bind:footnotes id="54pc">
 	<span slot="num">54%</span>
 	<span slot="lead"
 		>Aviation contributes more to global warming than heating due just to CO<sub>2</sub> emissions;
@@ -52,7 +52,7 @@
 	</ul>
 </Entry>
 
-<Entry bind:footnotes id="92%">
+<Entry bind:footnotes id="92pc">
 	<span slot="num">92%</span>
 	<span slot="lead"
 		>Aviation is responsibe for about 6% of the globe's warming. Contrails cause a large part of
