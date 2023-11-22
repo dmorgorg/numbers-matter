@@ -86,7 +86,7 @@
 								<li>
 									<NavLink
 										href="/climate/solutions/electricity/storage"
-										title="<s>Storage</s>"
+										title="Storage"
 										{activeBackground}
 									/>
 								</li>

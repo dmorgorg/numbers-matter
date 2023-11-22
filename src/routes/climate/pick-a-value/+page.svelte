@@ -39,6 +39,7 @@
 	>
 
 	<a href="/climate/solutions/ccs/dac#$100">$100/ton</a>
+	<a href="/climate/solutions/electricity/storage#151kWh">$151/kWh</a>
 	<a href="/climate/solutions/ccs/dac#728"><TT tt={['728 kg/ha', '650 lb/ac']} /></a>
 	<a href="/climate/solutions/industry#2000C"
 		><TT tt={['2,000<sup>o</sup>C', '3,600<sup>o</sup>F']} /></a
