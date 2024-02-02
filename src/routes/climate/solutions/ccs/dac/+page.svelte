@@ -174,9 +174,9 @@
 				desc="'Global CO2 emissions from fossil fuels'"
 				accessed="8th November, 2023"
 				url="https://ourworldindata.org/co2-emissions#global-co2-emissions-from-fossil-fuels-global-co2-emissions-from-fossil-fuels"
-			/> That works out to be <TT tt={['1180 tonnes/min', '1160 (long) tons/min']} /> (37.1x10<sup
+			/> That works out to be <TT tt={['1180 tonnes/sec', '1160 (long) tons/sec']} /> (37.1x10<sup
 				>9</sup
-			>/365/24/60/60/60). Each year, the Orca plant will remove slightly less than 3.5 minutes worth
+			>/365/24/60/60/60). Each year, the Orca plant will remove slightly less than 3.5 seconds worth
 			of current CO<sub>2</sub> emissions.
 		</li>
 	</ul>
